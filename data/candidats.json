@@ -108,37 +108,44 @@
         "immigration": {
           "value": "Au PE : CONTRE Pacte asile migration UE (avril 2024). CONTRE décharge Frontex 2022. Programme RN : restriction forte, fin regroupement familial.",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Veut beaucoup moins d'immigration. Pour la fin du regroupement familial (faire venir sa famille en France). Au Parlement européen, a voté contre le grand texte d'asile de 2024."
         },
         "europe": {
           "value": "Eurosceptique — souverainisme — \"Europe des nations\"",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Veut moins de pouvoirs pour l'Union européenne et plus pour la France. Vision d'une « Europe des nations »."
         },
         "climat": {
           "value": "A voté contre la majorité des grands textes climat européens 2020-2025 (Loi européenne climat 2020 et 2025, Nature Restoration 2023+2024, Pesticides 2023, Renewable Energy Directive 2023). Sur le CBAM (taxe carbone aux frontières) : abstention sur le vote initial du 18/04/2023, POUR sur la révision du 10/09/2025 (simplification et renforcement). Programme RN : pro-nucléaire, opposition au Pacte vert européen.",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Pour le nucléaire, contre les éoliennes. Au Parlement européen, a voté contre la plupart des grandes lois écologistes (loi climat, restauration nature, pesticides). Opposé au Pacte vert européen."
         },
         "fiscalite": {
           "value": "Baisse TVA produits 1ère nécessité, ISF climatique évoqué",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Veut baisser la TVA sur les produits du quotidien (alimentation, énergie). Évoque une taxe sur les très gros pollueurs."
         },
         "retraites": {
           "value": "A voté contre la réforme 2023",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Contre la retraite à 64 ans. A voté contre la réforme de 2023."
         },
         "securite": {
           "value": "Ligne dure, peines plancher",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Pour plus de police et des peines plus fermes. Veut des « peines minimum » automatiques pour les criminels."
         },
         "ukraine": {
           "value": "Au PE : ABSTENTION puis CONTRE Ukraine Facility (2024 + 2026). POUR résolution sur civils détenus (2025). Programme RN 2024 : soutien financier oui, refus des livraisons d'armes longue portée.",
           "source_url": null,
-          "source_label": null
+          "source_label": null,
+          "enonce_simple": "Soutien plutôt prudent. Pour l'aide financière, mais contre l'envoi d'armes lourdes."
         },
         "tribunes": {
           "value": "Livre programme 'Ce que je cherche' (Fayard, mai 2024). Tribunes récurrentes Le Figaro / Le Point sur immigration, identité, souveraineté. Interventions PE comme président groupe PfE depuis juillet 2024.",
@@ -153,7 +160,8 @@
         "societe": {
           "value": "Position RN sur IVG : favorable au droit à l'IVG mais opposé à sa constitutionnalisation (abstention du groupe RN au Congrès du 4 mars 2024). Position sur fin de vie : prudente, le programme RN 2024 ne soutient pas l'aide à mourir.",
           "source_url": "https://www.publicsenat.fr/",
-          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 ; programme RN 2024"
+          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 ; programme RN 2024",
+          "enonce_simple": "Pour le droit à l'IVG, mais contre son inscription dans la Constitution. Plutôt opposé à l'aide à mourir."
         }
       },
       "financement": {
@@ -567,37 +575,44 @@
         "immigration": {
           "value": "Maîtrise / fermeté mesurée",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons — politique migratoire"
+          "source_label": "Programme Horizons — politique migratoire",
+          "enonce_simple": "Veut mieux contrôler l'immigration, sans extrême. Position de fermeté modérée."
         },
         "europe": {
           "value": "Pro-européen affirmé",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons — Europe (Renew)"
+          "source_label": "Programme Horizons — Europe (Renew)",
+          "enonce_simple": "Très favorable à l'Union européenne. Veut renforcer la coopération européenne."
         },
         "climat": {
           "value": "Pro-nucléaire, transition pragmatique",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons — transition énergétique"
+          "source_label": "Programme Horizons — transition énergétique",
+          "enonce_simple": "Pour le nucléaire et une transition écologique progressive, sans rupture brutale avec l'économie actuelle."
         },
         "fiscalite": {
           "value": "Stabilité fiscale, baisse charges",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons — fiscalité"
+          "source_label": "Programme Horizons — fiscalité",
+          "enonce_simple": "Veut stabiliser les impôts et alléger les charges des entreprises pour favoriser l'emploi."
         },
         "retraites": {
           "value": "Soutien à la réforme 2023",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons + déclarations"
+          "source_label": "Programme Horizons + déclarations",
+          "enonce_simple": "Pour la retraite à 64 ans. A soutenu la réforme de 2023."
         },
         "securite": {
           "value": "Fermeté, modération sur droits",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Programme Horizons — sécurité"
+          "source_label": "Programme Horizons — sécurité",
+          "enonce_simple": "Pour plus de fermeté mais sans toucher aux libertés fondamentales."
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Déclarations publiques Philippe sur l'Ukraine"
+          "source_label": "Déclarations publiques Philippe sur l'Ukraine",
+          "enonce_simple": "Soutien sans réserve à l'Ukraine."
         },
         "tribunes": {
           "value": "Entretien fondateur de candidature Le Point (03/09/2024). Appel à présidentielle anticipée 07/10/2025 (presse multiple). Discours Reims 10/05/2026 (axes éducation/social/État/justice). Site Horizons : horizonsleparti.fr",
@@ -612,7 +627,8 @@
         "societe": {
           "value": "Soutien à la constitutionnalisation de l'IVG. Soutien public au projet de loi sur la fin de vie (Horizons aligné sur la majorité présidentielle 2024 portant le texte).",
           "source_url": "https://horizonsleparti.fr/",
-          "source_label": "Horizons — programme et déclarations publiques"
+          "source_label": "Horizons — programme et déclarations publiques",
+          "enonce_simple": "Pour l'inscription de l'IVG dans la Constitution. Pour la loi sur la fin de vie."
         }
       },
       "financement": {},
@@ -741,37 +757,44 @@
         "immigration": {
           "value": "Restriction forte, ligne dure assumée",
           "source_url": "https://republicains.fr/",
-          "source_label": "Programme LR + Place Beauvau (ministre Intérieur)"
+          "source_label": "Programme LR + Place Beauvau (ministre Intérieur)",
+          "enonce_simple": "Veut beaucoup moins d'immigration. Ligne très ferme assumée. Ministre de l'Intérieur depuis 2024, il pilote la politique migratoire."
         },
         "europe": {
           "value": "Pro-européen, droite gaulliste",
           "source_url": "https://republicains.fr/",
-          "source_label": "Programme LR — droite gaulliste pro-européenne"
+          "source_label": "Programme LR — droite gaulliste pro-européenne",
+          "enonce_simple": "Favorable à l'Europe mais souveraine : une « Europe des nations confiantes » plutôt qu'une Europe centralisée."
         },
         "climat": {
           "value": "Pro-nucléaire, sceptique sur certaines normes vertes",
           "source_url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
-          "source_label": "Sénat — votes Retailleau loi Climat 2021, Nucléaire 2023"
+          "source_label": "Sénat — votes Retailleau loi Climat 2021, Nucléaire 2023",
+          "enonce_simple": "Pour le nucléaire. Critique certaines normes écologistes qu'il juge trop contraignantes pour les entreprises et l'agriculture."
         },
         "fiscalite": {
           "value": "Baisse impôts, baisse dépense publique",
           "source_url": "https://republicains.fr/",
-          "source_label": "Programme LR — fiscalité"
+          "source_label": "Programme LR — fiscalité",
+          "enonce_simple": "Veut baisser les impôts et réduire les dépenses de l'État."
         },
         "retraites": {
           "value": "Soutien à la réforme 2023",
           "source_url": "https://republicains.fr/",
-          "source_label": "Programme LR + scrutin Sénat 2023"
+          "source_label": "Programme LR + scrutin Sénat 2023",
+          "enonce_simple": "Pour la retraite à 64 ans. A soutenu la réforme de 2023."
         },
         "securite": {
           "value": "Ligne dure (ministre Intérieur)",
           "source_url": "https://www.interieur.gouv.fr/ministres/bruno-retailleau",
-          "source_label": "Communiqués ministère Intérieur 2024-2025"
+          "source_label": "Communiqués ministère Intérieur 2024-2025",
+          "enonce_simple": "Pour plus de police et des sanctions plus dures. Ministre de l'Intérieur depuis 2024."
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
           "source_url": "https://republicains.fr/",
-          "source_label": "Programme LR — soutien Ukraine"
+          "source_label": "Programme LR — soutien Ukraine",
+          "enonce_simple": "Soutien sans réserve à l'Ukraine."
         },
         "tribunes": {
           "value": "Discours d'investiture présidence LR (18/05/2025). Tribunes récurrentes Le Figaro sur immigration / sécurité. Communiqués Place Beauvau (depuis 21/09/2024) ministère Intérieur.",
@@ -786,7 +809,8 @@
         "societe": {
           "value": "CONTRE la constitutionnalisation de l'IVG (rare sénateur LR à avoir voté contre au Congrès du 4 mars 2024). Position publique CONTRE l'aide à mourir, constante (interventions Sénat et tribunes Le Figaro 2024-2025).",
           "source_url": "https://www.publicsenat.fr/",
-          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 + tribunes Le Figaro"
+          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 + tribunes Le Figaro",
+          "enonce_simple": "Contre l'inscription de l'IVG dans la Constitution. Contre l'aide à mourir."
         }
       },
       "financement": {},
@@ -906,37 +930,44 @@
         "immigration": {
           "value": "Accueil, opposition aux lois restrictives",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme L'Avenir en commun LFI 2022"
+          "source_label": "Programme L'Avenir en commun LFI 2022",
+          "enonce_simple": "Pour un accueil digne des migrants. Contre les lois qui durcissent les conditions d'entrée et de séjour."
         },
         "europe": {
           "value": "Critique fortement le cadre actuel UE",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme L'Avenir en commun — plan A/plan B UE"
+          "source_label": "Programme L'Avenir en commun — plan A/plan B UE",
+          "enonce_simple": "Critique l'Europe actuelle qu'il juge trop libérale. Veut la transformer profondément, voire en désobéir aux traités."
         },
         "climat": {
           "value": "Planification écologique, sortie énergies fossiles",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme L'Avenir en commun — planification écologique"
+          "source_label": "Programme L'Avenir en commun — planification écologique",
+          "enonce_simple": "Pour une planification écologique forte (l'État pilote la transition). Veut sortir progressivement du pétrole et du nucléaire."
         },
         "fiscalite": {
           "value": "Hausse impôts hauts revenus, rétablir ISF",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme L'Avenir en commun — fiscalité"
+          "source_label": "Programme L'Avenir en commun — fiscalité",
+          "enonce_simple": "Pour taxer beaucoup plus les hauts revenus et les grandes fortunes. Veut rétablir l'ISF (impôt sur la fortune)."
         },
         "retraites": {
           "value": "Opposition frontale, abrogation demandée",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme LFI 2022 — abrogation réforme 2023"
+          "source_label": "Programme LFI 2022 — abrogation réforme 2023",
+          "enonce_simple": "Totalement contre la retraite à 64 ans. Veut revenir à 60 ans."
         },
         "securite": {
           "value": "Critique du tout-sécuritaire",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Programme LFI — libertés publiques"
+          "source_label": "Programme LFI — libertés publiques",
+          "enonce_simple": "Critique l'approche tout-sécuritaire. Pour plus de moyens dans l'éducation et le social pour prévenir."
         },
         "ukraine": {
           "value": "Critique de l'OTAN, refus des sanctions économiques (programme LFI 2022). Soutien à l'Ukraine en tant que peuple agressé mais refus de l'envoi d'armes.",
           "source_url": "https://melenchon.fr/",
-          "source_label": "Allocutions Mélenchon 2022-2026 sur l'Ukraine"
+          "source_label": "Allocutions Mélenchon 2022-2026 sur l'Ukraine",
+          "enonce_simple": "Soutient le peuple ukrainien attaqué, mais contre l'envoi d'armes. Critique de l'OTAN."
         },
         "tribunes": {
           "value": "Blog melenchon.fr actif (allocutions vidéos hebdomadaires). Entretien Politis novembre 2025 ('Nous sommes les plus forts à gauche'). Livres : 'Faut-il aimer Mitterrand ?' (2024), 'Et ainsi de suite' (2023). Allocution Pass sanitaire (25/07/2021) référence sur libertés.",
@@ -951,7 +982,8 @@
         "societe": {
           "value": "Soutien fort au droit à l'IVG et à sa constitutionnalisation. Programme LFI 2022 inclut l'extension du délai légal d'IVG et un assouplissement de la loi sur la fin de vie.",
           "source_url": "https://melenchon.fr/",
-          "source_label": "melenchon.fr et programme « L'Avenir en commun » LFI 2022"
+          "source_label": "melenchon.fr et programme « L'Avenir en commun » LFI 2022",
+          "enonce_simple": "Pour étendre le droit à l'IVG. Pour la loi sur la fin de vie."
         }
       },
       "financement": {
@@ -1097,37 +1129,44 @@
         "immigration": {
           "value": "Fermeté, défense des lois Darmanin/Retailleau",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
-          "source_label": "AN — DPG Attal 30/01/2024 + scrutins L17"
+          "source_label": "AN — DPG Attal 30/01/2024 + scrutins L17",
+          "enonce_simple": "Pour une politique migratoire ferme. A soutenu les lois d'immigration récentes (Darmanin 2024, Retailleau)."
         },
         "europe": {
           "value": "Pro-européen libéral",
           "source_url": "https://gabrielattal.fr/",
-          "source_label": "Site officiel Attal + Renaissance"
+          "source_label": "Site officiel Attal + Renaissance",
+          "enonce_simple": "Très favorable à l'Europe. Vision pro-marché commun et coopération renforcée."
         },
         "climat": {
           "value": "Pro-nucléaire + renouvelables, ligne gouvernementale",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
-          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024"
+          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024",
+          "enonce_simple": "Pour le nucléaire ET les énergies renouvelables ensemble. Position du gouvernement actuel."
         },
         "fiscalite": {
           "value": "Baisse impôts, soutien à la production",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
-          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024 (ministre Comptes publics)"
+          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024 (ministre Comptes publics)",
+          "enonce_simple": "Veut baisser les impôts pour aider les entreprises à produire en France."
         },
         "retraites": {
           "value": "A défendu la réforme 2023",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
-          "source_label": "AN — porte-parole gouv. Borne 2023 (49.3)"
+          "source_label": "AN — porte-parole gouv. Borne 2023 (49.3)",
+          "enonce_simple": "Pour la retraite à 64 ans. A défendu la réforme au gouvernement (porte-parole, puis ministre)."
         },
         "securite": {
           "value": "Fermeté ligne gouvernementale",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
-          "source_label": "AN — PPL Attal sécurité + loi Darmanin"
+          "source_label": "AN — PPL Attal sécurité + loi Darmanin",
+          "enonce_simple": "Pour la fermeté. A soutenu les lois sécurité du gouvernement (loi Darmanin notamment)."
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
           "source_url": "https://gabrielattal.fr/",
-          "source_label": "Renaissance — ligne gouvernementale soutien Ukraine"
+          "source_label": "Renaissance — ligne gouvernementale soutien Ukraine",
+          "enonce_simple": "Soutien sans réserve à l'Ukraine."
         },
         "tribunes": {
           "value": "Déclaration de politique générale 30/01/2024 à l'AN (en tant que PM). Discours mort PM 21/09/2024. Multiples interventions presse 2024-2026 (BFM, France Inter, RTL). Site personnel : gabrielattal.fr",
@@ -1142,7 +1181,8 @@
         "societe": {
           "value": "POUR la constitutionnalisation de l'IVG (texte porté par le gouvernement Attal au Congrès du 4 mars 2024). POUR l'aide à mourir, vote nominal AN scrutin n°2107 du 27/05/2025.",
           "source_url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/2107",
-          "source_label": "AN — scrutin n°2107 du 27/05/2025 + Congrès Versailles 04/03/2024"
+          "source_label": "AN — scrutin n°2107 du 27/05/2025 + Congrès Versailles 04/03/2024",
+          "enonce_simple": "Pour l'inscription de l'IVG dans la Constitution (porté par son gouvernement). Pour l'aide à mourir."
         }
       },
       "financement": {},

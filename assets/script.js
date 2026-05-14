@@ -397,13 +397,19 @@
     for (const slug of slugs) {
       const c = candidats[slug];
       if (!c) continue;
-      const pkey = sujet.positions_key;
-      const positionPayload = pkey ? (c.positions && c.positions[pkey]) : null;
+      const pkey = sujet.positions_key || sujet.id;
+      const positionPayload = (c.positions && (c.positions[pkey] || c.positions[sujet.id])) || null;
       const positionValue = positionPayload ? positionPayload.value : null;
+      const positionSimple = positionPayload ? positionPayload.enonce_simple : null;
       const positionUrl = positionPayload ? positionPayload.source_url : null;
       const nonTrouve = !positionValue || isNonTrouve(positionValue);
-      const text = nonTrouve ? 'Position non synthétisée sur ce sujet (voir fiche candidat).' : positionValue;
+      // Préférer la version simple si disponible
+      const mainText = nonTrouve ? 'Position non synthétisée sur ce sujet (voir fiche candidat).' : (positionSimple || positionValue);
       const valueCls = nonTrouve ? ' non-trouve' : '';
+      // Le détail technique (enonce original) est dépliable si différent de la version simple
+      const detailHtml = (positionSimple && positionValue && positionSimple !== positionValue)
+        ? `<details style="margin-top:0.4rem"><summary style="cursor:pointer; font-size:0.78rem; color:var(--c-text-soft)">Détail technique</summary><div style="font-size:0.85rem; color:var(--c-text-soft); margin-top:0.3rem">${richText(positionValue)}</div></details>`
+        : '';
       positions += `<article class="position-card">
         <div class="pc-header">
           ${candidatPhoto(slug, c.nom, 'pc-photo')}
@@ -412,7 +418,8 @@
             <div class="pc-parti">${escapeHtml(c.parti)}</div>
           </div>
         </div>
-        <div class="pc-position${valueCls}">${richText(text)}</div>
+        <div class="pc-position${valueCls}">${richText(mainText)}</div>
+        ${detailHtml}
         <div class="pc-source">${sourceLink(positionUrl, positionPayload && positionPayload.source_label)}</div>
         <a class="pc-link" href="candidat-${escapeHtml(slug)}.html#positions">Voir sa fiche →</a>
       </article>`;
@@ -607,7 +614,10 @@
     // Bloc 1 : Comptes de campagne
     let block1 = `<section class="section-block">
       <h2>Comptes de campagne récents analysables</h2>
-      <p class="lead">Comptes contrôlés par la <span class="term" data-term="cnccfp">CNCCFP</span> et publiés au Journal officiel. Pour chaque ligne, la source renvoie à la décision officielle.</p>
+      <aside style="background:#F0EFEA; border-left:3px solid var(--c-accent); padding:0.875rem 1.125rem; border-radius:4px; margin:0.75rem 0 1rem; font-size:0.92rem">
+        <p style="margin:0 0 0.5rem"><strong>💡 Comprendre ce tableau</strong></p>
+        <p style="margin:0; line-height:1.55">Quand un candidat fait campagne, il doit déclarer <strong>chaque euro dépensé</strong> à un organisme public, la <span class="term" data-term="cnccfp">CNCCFP</span>. L'État rembourse une partie de ces dépenses si le candidat a fait au moins 5 % des voix. Si la CNCCFP juge qu'une dépense n'est pas justifiée ou pas liée à la campagne, elle la <strong>refuse</strong>&nbsp;: c'est une «&nbsp;<span class="term" data-term="reformation">réformation</span>&nbsp;». Plus il y a de réformations, plus le compte a posé problème.</p>
+      </aside>
       <div class="table-wrap"><table class="data-table">
         <thead><tr><th>Candidat</th><th>Élection</th><th>Date décision</th><th class="numeric">Dépenses</th><th class="numeric">Recettes</th><th>Remboursement</th><th><span class="term" data-term="reformation">Réformations</span></th><th>Source</th></tr></thead>
         <tbody>${(fin.campagnes_par_candidat || []).map(c => `<tr>
@@ -626,7 +636,17 @@
     // Bloc 2 : Comptes des partis
     let block2 = `<section class="section-block">
       <h2>Comptes des partis politiques — exercice 2024</h2>
-      <p class="lead">Source : <span class="term" data-term="cnccfp">CNCCFP</span>, Avis publication générale des comptes des partis politiques (février 2026). ${sourceLink(fin.partis_source_url, fin.partis_source_label || 'CNCCFP — PDF officiel')}</p>
+      <aside style="background:#F0EFEA; border-left:3px solid var(--c-accent); padding:0.875rem 1.125rem; border-radius:4px; margin:0.75rem 0 1rem; font-size:0.92rem">
+        <p style="margin:0 0 0.5rem"><strong>💡 Comprendre ce tableau</strong></p>
+        <p style="margin:0 0 0.4rem; line-height:1.55">Chaque parti politique publie ses comptes annuels. Voici comment lire les colonnes&nbsp;:</p>
+        <ul style="margin:0; padding-left:1.4rem; line-height:1.55">
+          <li><strong>Produits</strong>&nbsp;: l'argent que le parti a reçu dans l'année (cotisations des adhérents, dons, aide de l'État).</li>
+          <li><strong>Aide publique</strong>&nbsp;: subvention versée par l'État. Calculée selon le score aux législatives + nombre de parlementaires affiliés.</li>
+          <li><strong>Dettes</strong>&nbsp;: ce que le parti doit rembourser. <em>Dont banques</em>&nbsp;: emprunté à des banques. <em>Dont personnes physiques</em>&nbsp;: emprunté à des particuliers (sujet sensible historiquement, car peut indiquer des financements politiques privés).</li>
+        </ul>
+        <p style="margin:0.5rem 0 0; line-height:1.55; font-style:italic; color:var(--c-text-soft)">Une cellule vide signifie&nbsp;: dette nulle ou non significative dans cette catégorie selon la CNCCFP.</p>
+      </aside>
+      <p class="lead" style="margin-top:0.5rem">Source officielle&nbsp;: ${sourceLink(fin.partis_source_url, fin.partis_source_label || 'CNCCFP — PDF officiel')}</p>
       <div class="table-wrap"><table class="data-table">
         <thead><tr><th>Parti</th><th>Total bilan</th><th class="numeric">Produits 2024</th><th><span class="term" data-term="aide-publique-partis">Aide pub. 2024</span></th><th>Aide pub. 2025</th><th>Dettes</th><th>Dont banques</th><th>Dont pers. physiques</th></tr></thead>
         <tbody>${(fin.comptes_partis_2024 || []).map(p => `<tr>

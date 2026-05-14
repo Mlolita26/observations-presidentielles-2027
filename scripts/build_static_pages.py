@@ -294,7 +294,12 @@ def render_sujet(sujet, candidats, votes):
             parts.append(f'<article class="position-card">')
             parts.append(f'<div class="pc-header"><img class="pc-photo" src="assets/photos/{h(slug)}.svg" alt=""><div><div class="pc-name">{h(c["nom"])}</div><div class="pc-parti">{h(c["parti"])}</div></div></div>')
             if pos and pos.get('value'):
-                parts.append(f'<div class="pc-position">{h(pos["value"])}</div>')
+                simple = pos.get('enonce_simple')
+                value = pos.get('value')
+                main_text = simple if simple else value
+                parts.append(f'<div class="pc-position">{h(main_text)}</div>')
+                if simple and value and simple != value:
+                    parts.append(f'<details style="margin-top:0.4em"><summary style="cursor:pointer; font-size:0.78em; color:#888">Détail technique</summary><div style="font-size:0.85em; color:#555; margin-top:0.3em">{h(value)}</div></details>')
                 if pos.get('source_url'):
                     parts.append(f'<div class="pc-source">{field_payload(pos)}</div>')
             else:
@@ -338,11 +343,25 @@ def render_sujet(sujet, candidats, votes):
         try:
             fin_data = json.loads((DATA / 'financement.json').read_text(encoding='utf-8'))
             parts.append('<section class="section-block"><h2>Comptes de campagne récents</h2>')
+            parts.append('<aside style="background:#F0EFEA; border-left:3px solid #1F3A5F; padding:0.9em 1.2em; border-radius:4px; margin:0.75em 0 1em; font-size:0.93em">')
+            parts.append('<p style="margin:0 0 0.5em"><strong>💡 Comprendre ce tableau</strong></p>')
+            parts.append('<p style="margin:0; line-height:1.55">Quand un candidat fait campagne, il doit déclarer <strong>chaque euro dépensé</strong> à un organisme public, la CNCCFP. L\'État rembourse une partie des dépenses si le candidat a fait au moins 5 % des voix. Si une dépense n\'est pas justifiée ou pas liée à la campagne, la CNCCFP la <strong>refuse</strong> : c\'est une « réformation ». Plus il y a de réformations, plus le compte a posé problème.</p>')
+            parts.append('</aside>')
             parts.append('<table class="data-table"><thead><tr><th>Candidat</th><th>Élection</th><th>Dépenses</th><th>Recettes</th><th>Remboursement</th><th>Réformations</th></tr></thead><tbody>')
             for cmp in fin_data.get('campagnes_par_candidat', []):
                 parts.append(f'<tr><td>{h(cmp.get("candidat_nom"))}</td><td>{h(cmp.get("election"))}</td><td>{h(cmp.get("depenses"))}</td><td>{h(cmp.get("recettes"))}</td><td>{h(cmp.get("remboursement"))}</td><td>{h(cmp.get("reformations"))}</td></tr>')
             parts.append('</tbody></table>')
             parts.append('<h2>Comptes des partis 2024</h2>')
+            parts.append('<aside style="background:#F0EFEA; border-left:3px solid #1F3A5F; padding:0.9em 1.2em; border-radius:4px; margin:0.75em 0 1em; font-size:0.93em">')
+            parts.append('<p style="margin:0 0 0.5em"><strong>💡 Comprendre ce tableau</strong></p>')
+            parts.append('<p style="margin:0 0 0.4em; line-height:1.55">Chaque parti politique publie ses comptes annuels. Voici comment lire les colonnes :</p>')
+            parts.append('<ul style="margin:0; padding-left:1.4em; line-height:1.55">')
+            parts.append('<li><strong>Produits</strong> : l\'argent reçu dans l\'année (cotisations, dons, aide de l\'État).</li>')
+            parts.append('<li><strong>Aide publique</strong> : subvention versée par l\'État. Calculée selon le score aux législatives + nombre de parlementaires.</li>')
+            parts.append('<li><strong>Dettes</strong> : ce que le parti doit rembourser. <em>Dont banques</em> = emprunté à des banques. <em>Dont personnes physiques</em> = emprunté à des particuliers (sujet sensible historiquement).</li>')
+            parts.append('</ul>')
+            parts.append('<p style="margin:0.5em 0 0; line-height:1.55; font-style:italic; color:#666">Une cellule vide = dette nulle ou non significative dans cette catégorie selon la CNCCFP.</p>')
+            parts.append('</aside>')
             parts.append('<table class="data-table"><thead><tr><th>Parti</th><th>Total bilan</th><th>Produits</th><th>Aide publique</th><th>Dettes</th><th>Dont banques</th><th>Dont pers. phys.</th></tr></thead><tbody>')
             for p in fin_data.get('comptes_partis_2024', []):
                 parts.append(f'<tr><td>{h(p.get("parti"))}</td><td>{h(p.get("total_bilan"))}</td><td>{h(p.get("produits_2024"))}</td><td>{h(p.get("aide_publique_2024"))}</td><td>{h(p.get("dettes_total"))}</td><td>{h(p.get("dont_banques"))}</td><td>{h(p.get("dont_personnes_physiques"))}</td></tr>')
