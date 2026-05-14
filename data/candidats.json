@@ -1,0 +1,1108 @@
+{
+  "metadata": {
+    "date_arrete": "2026-05-12",
+    "source_fichier": "analyse_candidats_2027_v6_normalise.xlsx",
+    "n_candidats": 5
+  },
+  "candidats": {
+    "bardella": {
+      "slug": "bardella",
+      "nom": "Jordan Bardella",
+      "parti": "Rassemblement National",
+      "initiales": "JB",
+      "identite": {
+        "date_naissance": {
+          "value": "1995-09-13",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia"
+        },
+        "lieu_naissance": {
+          "value": "Drancy (Seine-Saint-Denis)",
+          "source_url": "https://fr.wikipedia.org/"
+        },
+        "formation": {
+          "value": "Études de géographie (Sorbonne, non diplômé)"
+        },
+        "profession_origine": {
+          "value": "Permanent politique (RN dès 16 ans)"
+        },
+        "parti": {
+          "value": "Rassemblement National"
+        },
+        "mandat_principal": {
+          "value": "Député européen (depuis 2019)",
+          "source_url": null,
+          "source_label": null
+        },
+        "premiere_election": {
+          "value": "Conseiller régional IDF (2015)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "presidence_parti": {
+          "value": "Président du RN depuis nov. 2022",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "candidature_2027": {
+          "value": "Pressenti / non officiellement déclaré",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "activite_parlementaire": {
+        "presence_hemicycle": {
+          "value": "89,8 %",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "presence_commissions": {
+          "value": "30,0 %",
+          "source_url": "https://www.france24.com/fr/europe/20240529-jordan-bardella-et-le-rn-au-parlement-europeen",
+          "source_label": "Source : France 24 29/05/2024 ; études Yahoo Actu. URL"
+        },
+        "interventions": {
+          "value": "Interventions plénière : nombreuses depuis présidence groupe PfE juillet 2024. Détail comptable sur europarl.europa.eu/meps/fr/131580/plenary-speeches",
+          "source_url": "https://www.europarl.europa.eu/meps/fr/131580/JORDAN_BARDELLA/main-activities/plenary-speeches",
+          "source_label": "Source : Parlement européen - profil MEP 131580. URL"
+        },
+        "propositions_loi": {
+          "value": "0 rapport en tant que rapporteur titulaire sur mandat 2019-2024 + 1 rapport en tant que rapporteur fictif (shadow rapporteur). Aucune PPL initiée.",
+          "source_url": "https://www.europarl.europa.eu/meps/fr/131580",
+          "source_label": "Source : France 24 + profil PE. URL"
+        },
+        "amendements": {
+          "value": "21 amendements déposés sur l'ensemble du mandat 2019-2024 (très faible - le PE compte des MEP qui en déposent plusieurs centaines)."
+        },
+        "rapports": {
+          "value": "0"
+        },
+        "questions": {
+          "value": "156"
+        },
+        "cohesion_groupe": {
+          "value": "81,7 %",
+          "source_url": "https://www.datan.fr/",
+          "source_label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé"
+        },
+        "conference_presidents_pe": {
+          "value": "23,0 %",
+          "source_url": "https://www.liberation.fr/",
+          "source_label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or"
+        }
+      },
+      "patrimoine": {
+        "patrimoine_declare": {
+          "value": "Non communiqué dans DI 2024 (DI = déclaration d'intérêts/activités, pas de patrimoine). Pour eurodéputé, DSP non systématique. À consulter sur HATVP fiche nominative Bardella.",
+          "source_url": "https://www.hatvp.fr/",
+          "source_label": "Source : HATVP. URL"
+        },
+        "revenus_annuels": {
+          "value": "2020: 107 499 / 2021: 108 900 / 2022: 115 099 / 2023: 120 234 / 2024: 72 792 (partiel - PE)",
+          "source_url": "https://www.hatvp.fr/",
+          "source_label": "Source : HATVP. URL"
+        }
+      },
+      "positions": {
+        "immigration": {
+          "value": "Au PE : CONTRE Pacte asile migration UE (avril 2024). CONTRE décharge Frontex 2022. Programme RN : restriction forte, fin regroupement familial.",
+          "source_url": null,
+          "source_label": null
+        },
+        "europe": {
+          "value": "Eurosceptique — souverainisme — \"Europe des nations\"",
+          "source_url": null,
+          "source_label": null
+        },
+        "climat": {
+          "value": "Climato-prudent. Au PE : CONTRE Loi climat européenne (2020+2025), CONTRE Nature Restoration (2023+2024), CONTRE Pesticides (2023), mais POUR CBAM (2025). Pro-nucléaire.",
+          "source_url": null,
+          "source_label": null
+        },
+        "fiscalite": {
+          "value": "Baisse TVA produits 1ère nécessité, ISF climatique évoqué",
+          "source_url": null,
+          "source_label": null
+        },
+        "retraites": {
+          "value": "A voté contre la réforme 2023",
+          "source_url": null,
+          "source_label": null
+        },
+        "securite": {
+          "value": "Ligne dure, peines plancher",
+          "source_url": null,
+          "source_label": null
+        },
+        "ukraine": {
+          "value": "Au PE : ABSTENTION puis CONTRE Ukraine Facility (2024 + 2026). POUR résolution sur civils détenus (2025). Soutien tardif, refus de certaines livraisons (programme RN).",
+          "source_url": null,
+          "source_label": null
+        },
+        "tribunes": {
+          "value": "Livre programme 'Ce que je cherche' (Fayard, mai 2024). Tribunes récurrentes Le Figaro / Le Point sur immigration, identité, souveraineté. Interventions PE comme président groupe PfE depuis juillet 2024.",
+          "source_url": null,
+          "source_label": null
+        },
+        "manifestations": {
+          "value": "Meetings RN multiples (mai 2024 européennes, février-mars 2025 RN). Pas de manifestation type 'cortège' avec slogans (positionnement institutionnel).",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "financement": {
+        "derniere_campagne": {
+          "value": "Européennes juin 2024 (tête de liste RN - 31,37 %)",
+          "source_url": "https://cnccfp.fr/wp-content/uploads/2025/03/cnccfp-decisions_europeennes_2024.pdf"
+        },
+        "total_depenses": {
+          "value": "4,10 M€",
+          "source_url": "https://cnccfp.fr/wp-content/uploads/2025/03/cnccfp-decisions_europeennes_2024.pdf"
+        }
+      },
+      "synthese": {},
+      "affaires": [],
+      "discours_vs_actes": [],
+      "bardella_pe_stats": {
+        "annual": [
+          {
+            "pour": 28,
+            "contre": 30,
+            "abstention": 6,
+            "absent": 4,
+            "votes_totaux": 68,
+            "annee": 2019,
+            "presence_pct": 94.1
+          },
+          {
+            "pour": 756,
+            "contre": 770,
+            "abstention": 228,
+            "absent": 74,
+            "votes_totaux": 1828,
+            "annee": 2020,
+            "presence_pct": 96.0
+          },
+          {
+            "pour": 444,
+            "contre": 452,
+            "abstention": 110,
+            "absent": 0,
+            "votes_totaux": 1006,
+            "annee": 2021,
+            "presence_pct": 100.0
+          },
+          {
+            "pour": 366,
+            "contre": 335,
+            "abstention": 76,
+            "absent": 223,
+            "votes_totaux": 1000,
+            "annee": 2022,
+            "presence_pct": 77.7
+          },
+          {
+            "pour": 436,
+            "contre": 281,
+            "abstention": 63,
+            "absent": 122,
+            "votes_totaux": 902,
+            "annee": 2023,
+            "presence_pct": 86.5
+          },
+          {
+            "pour": 241,
+            "contre": 221,
+            "abstention": 66,
+            "absent": 123,
+            "votes_totaux": 651,
+            "annee": 2024,
+            "presence_pct": 81.1
+          },
+          {
+            "pour": 317,
+            "contre": 189,
+            "abstention": 27,
+            "absent": 108,
+            "votes_totaux": 641,
+            "annee": 2025,
+            "presence_pct": 83.2
+          },
+          {
+            "pour": 7,
+            "contre": 14,
+            "abstention": 3,
+            "absent": 1,
+            "votes_totaux": 25,
+            "annee": 2026,
+            "presence_pct": 96.0
+          }
+        ]
+      },
+      "bardella_pe_votes": [
+        {
+          "theme": "",
+          "date": "2024-03-13",
+          "titre": "Artificial Intelligence Act",
+          "position": "POUR",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2020-10-07",
+          "titre": "European Climate Law",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2025-09-10",
+          "titre": "Carbon Border Adjustment Mechanism: simplification and strengthening",
+          "position": "POUR",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2025-09-10",
+          "titre": "Investments and reforms for European competitiveness and the creation of a Capital Markets Union",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-24",
+          "titre": "Increasing the attractiveness of public capital markets and facilitating access to capital for SMEs – amending directive",
+          "position": "ABSTENTION",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2023-09-12",
+          "titre": "Renewable Energy Directive",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-10",
+          "titre": "Asylum and migration management",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-10",
+          "titre": "Common procedure for international protection in the Union",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-11",
+          "titre": "2022 discharge: European Border and Coast Guard Agency",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2026-02-11",
+          "titre": "Amending Regulation (EU) 2024/792 establishing the Ukraine Facility",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-02-27",
+          "titre": "Establishing the Ukraine Facility",
+          "position": "ABSTENTION",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2025-07-09",
+          "titre": "The human cost of Russia’s war against Ukraine and the urgent need to end Russian aggression: the situation of illegally detained civilians and prisoners of war, and the continued ",
+          "position": "POUR",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-03-12",
+          "titre": "Definition of criminal offences and penalties for the violation of Union restrictive measures",
+          "position": "ABSTENTION",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2025-09-10",
+          "titre": "Future of agriculture and the post-2027 common agricultural policy",
+          "position": "ABSTENTION",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2021-11-23",
+          "titre": "Common agricultural policy (CAP) 2021–2027",
+          "position": "POUR",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2023-11-22",
+          "titre": "Sustainable use of plant protection products",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-02-27",
+          "titre": "Nature restoration",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2022-09-14",
+          "titre": "Adequate minimum wages in the European Union",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2025-11-25",
+          "titre": "Existence of a clear risk of a serious breach by Hungary of the values on which the Union is founded",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-01-18",
+          "titre": "Situation in Hungary and frozen EU funds",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-24",
+          "titre": "Corporate sustainability due diligence",
+          "position": "CONTRE",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2024-04-24",
+          "titre": "Improving working conditions in platform work",
+          "position": "POUR",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        },
+        {
+          "theme": "",
+          "date": "2021-09-15",
+          "titre": "Fair working conditions, rights and social protection for platform workers - New forms of employment linked to digital development",
+          "position": "ABSTENTION",
+          "position_raw": null,
+          "groupe": "",
+          "aligne": ""
+        }
+      ]
+    },
+    "philippe": {
+      "slug": "philippe",
+      "nom": "Édouard Philippe",
+      "parti": "Horizons",
+      "initiales": "EP",
+      "identite": {
+        "date_naissance": {
+          "value": "1970-11-28",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia"
+        },
+        "lieu_naissance": {
+          "value": "Rouen (Seine-Maritime)",
+          "source_url": "https://fr.wikipedia.org/"
+        },
+        "formation": {
+          "value": "Sciences Po Paris, ENA (1997)"
+        },
+        "profession_origine": {
+          "value": "Avocat, dirigeant d'entreprise (Areva)"
+        },
+        "parti": {
+          "value": "Horizons"
+        },
+        "mandat_principal": {
+          "value": "Maire du Havre (depuis 2010, sauf interruption PM)",
+          "source_url": null,
+          "source_label": null
+        },
+        "premiere_election": {
+          "value": "Député de Seine-Maritime (2002)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "fonctions_gouvernementales": {
+          "value": "Premier ministre (2017-2020)",
+          "source_url": null,
+          "source_label": null
+        },
+        "presidence_parti": {
+          "value": "Président d'Horizons depuis oct. 2021",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "candidature_2027": {
+          "value": "Pressenti / non officiellement déclaré",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "activite_parlementaire": {
+        "presence_hemicycle": {
+          "value": "91,0 %",
+          "source_url": "https://datan.fr/deputes/seine-maritime-76/depute_edouard-philippe",
+          "source_label": "Source : Datan.fr"
+        },
+        "presence_commissions": {
+          "value": "124 présences commission sur 47 mois (fait partie des 150 moins actifs XIVe lég.)",
+          "source_url": "https://2012-2017.nosdeputes.fr/edouard-philippe",
+          "source_label": "Source : NosDéputés 2012-2017"
+        },
+        "interventions": {
+          "value": "Hémicycle : 27 interventions longues (>20 mots) sur 47 mois (fait partie des 150 moins actifs). Commission : 25 interventions.",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "propositions_loi": {
+          "value": "0 proposition de loi écrite (1er auteur). 29 propositions cosignées (fait partie des 150 moins actifs XIVe lég.)",
+          "source_url": "https://www.senat.fr/",
+          "source_label": "Source : NosDéputés 2012-2017"
+        },
+        "amendements": {
+          "value": "6"
+        },
+        "rapports": {
+          "value": "0"
+        },
+        "questions": {
+          "value": "29"
+        },
+        "cohesion_groupe": {
+          "value": "82,0 %",
+          "source_url": "https://www.datan.fr/",
+          "source_label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé"
+        },
+        "conference_presidents_pe": {
+          "value": "N/A",
+          "source_url": "https://www.liberation.fr/",
+          "source_label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or"
+        }
+      },
+      "patrimoine": {
+        "patrimoine_declare": {
+          "value": "1,37 M€",
+          "source_url": "https://www.hatvp.fr/pages_nominatives/philippe-edouard.html",
+          "source_label": "Source : HATVP fiche Philippe + L'Essentiel de l'Eco synthèse. URL"
+        },
+        "revenus_annuels": {
+          "value": "81 k€",
+          "source_url": "https://www.hatvp.fr/pages_nominatives/philippe-edouard.html",
+          "source_label": "Source : HATVP fiche Philippe + L'Essentiel de l'Eco synthèse. URL"
+        }
+      },
+      "positions": {
+        "immigration": {
+          "value": "Maîtrise / fermeté mesurée",
+          "source_url": null,
+          "source_label": null
+        },
+        "europe": {
+          "value": "Pro-européen affirmé",
+          "source_url": null,
+          "source_label": null
+        },
+        "climat": {
+          "value": "Pro-nucléaire, transition pragmatique",
+          "source_url": null,
+          "source_label": null
+        },
+        "fiscalite": {
+          "value": "Stabilité fiscale, baisse charges",
+          "source_url": null,
+          "source_label": null
+        },
+        "retraites": {
+          "value": "Soutien à la réforme 2023",
+          "source_url": null,
+          "source_label": null
+        },
+        "securite": {
+          "value": "Fermeté, modération sur droits",
+          "source_url": null,
+          "source_label": null
+        },
+        "ukraine": {
+          "value": "Soutien clair à l'Ukraine",
+          "source_url": null,
+          "source_label": null
+        },
+        "tribunes": {
+          "value": "Entretien fondateur de candidature Le Point (03/09/2024). Appel à présidentielle anticipée 07/10/2025 (presse multiple). Discours Reims 10/05/2026 (axes éducation/social/État/justice). Site Horizons : horizonsleparti.fr",
+          "source_url": "https://www.franceinfo.fr/politique/edouard-philippe/",
+          "source_label": "Source : Le Point 03/09/2024 + L'Avenir 07/10/2025 + Sud Radio 10/05/2026. URLs : et"
+        },
+        "manifestations": {
+          "value": "Pas de manifestation type cortège. Meetings Horizons : Angers 09/10/2021 (création parti), Reims 10/05/2026, Adidas Arena Paris prévu 05/07/2026. 1 000 réunions d'appartement annoncées 25/06/2026.",
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Source : Horizons site + presse Reims 10/05/2026. URL"
+        }
+      },
+      "financement": {},
+      "synthese": {},
+      "affaires": [
+        {
+          "intitule": "Enquête CJR — gestion crise Covid (2020)",
+          "nature": "Enquête / instruction",
+          "statut_juridique": "Témoin assisté depuis le 18/10/2022 (PAS mis en examen - statut intermédiaire plus favorable). Qualifications visées : mise en danger de la vie d'autrui et abstention volontaire de combattre un sinistre. Instruction toujours en cours a mai 2026 (présomption d'innocence stricte).",
+          "annee": "2020-…",
+          "source_url": "https://www.france24.com/fr/france/20221022-gestion-du-covid-19-edouard-philippe-echappe-a-une-mise-en-examen",
+          "source_label": "Source : France 24 22/10/2022 + Franceinfo. URL"
+        }
+      ],
+      "discours_vs_actes": []
+    },
+    "retailleau": {
+      "slug": "retailleau",
+      "nom": "Bruno Retailleau",
+      "parti": "Les Républicains",
+      "initiales": "BR",
+      "identite": {
+        "date_naissance": {
+          "value": "1960-12-23",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia"
+        },
+        "lieu_naissance": {
+          "value": "Cholet (Maine-et-Loire)",
+          "source_url": "https://fr.wikipedia.org/"
+        },
+        "formation": {
+          "value": "Droit (Nantes), Sciences Po Paris"
+        },
+        "profession_origine": {
+          "value": "Avocat, collaborateur parlementaire"
+        },
+        "parti": {
+          "value": "Les Républicains"
+        },
+        "mandat_principal": {
+          "value": "Sénateur de Vendée puis ministre de l'Intérieur (2024)",
+          "source_url": null,
+          "source_label": null
+        },
+        "premiere_election": {
+          "value": "Conseiller régional Pays de la Loire (1998)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "fonctions_gouvernementales": {
+          "value": "Ministre de l'Intérieur (sept. 2024-)",
+          "source_url": null,
+          "source_label": null
+        },
+        "presidence_parti": {
+          "value": "Président de LR depuis mai 2025",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "candidature_2027": {
+          "value": "Pressenti / non officiellement déclaré",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "activite_parlementaire": {
+        "presence_hemicycle": {
+          "value": "Présence hémicycle non publiée. 23 semaines actives sur 04/22-03/23 (1 an avant nomination ministre). 20 présences commission sur la période (fait partie des 100 MOINS actifs - président de groupe, agenda atypique).",
+          "source_url": "https://archive.nossenateurs.fr/bruno-retailleau",
+          "source_label": "Source : NosSénateurs archive"
+        },
+        "presence_commissions": {
+          "value": "20 présences commission Culture sur 04/22-03/23 (fait partie des 100 moins actifs - rôle président de groupe LR Sénat)",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "interventions": {
+          "value": "Hémicycle : 180 interventions longues sur 04/22-03/23 (top 100). Commission : seulement 3 interventions.",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "propositions_loi": {
+          "value": "9",
+          "source_url": "https://www.senat.fr/",
+          "source_label": "Source : NosDéputés 2012-2017"
+        },
+        "amendements": {
+          "value": "47"
+        },
+        "rapports": {
+          "value": "0"
+        },
+        "questions": {
+          "value": "4"
+        },
+        "cohesion_groupe": {
+          "value": "Cohésion groupe LR Sénat : NON PUBLIÉ chiffrée par Datan (Sénat). À extraire des scrutins publics senat.fr.",
+          "source_url": "https://www.datan.fr/",
+          "source_label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé"
+        },
+        "conference_presidents_pe": {
+          "value": "N/A",
+          "source_url": "https://www.liberation.fr/",
+          "source_label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or"
+        }
+      },
+      "patrimoine": {
+        "patrimoine_declare": {
+          "value": "1,15 M€",
+          "source_url": "https://www.hatvp.fr/pages_nominatives/retailleau-bruno.html",
+          "source_label": "Source : HATVP fiche Retailleau + synthèse presse Selexium. URL"
+        },
+        "revenus_annuels": {
+          "value": "125 k€",
+          "source_url": "https://www.hatvp.fr/pages_nominatives/retailleau-bruno.html",
+          "source_label": "Source : HATVP fiche Retailleau + synthèse presse Selexium. URL"
+        }
+      },
+      "positions": {
+        "immigration": {
+          "value": "Restriction forte, ligne dure assumée",
+          "source_url": null,
+          "source_label": null
+        },
+        "europe": {
+          "value": "Pro-européen, droite gaulliste",
+          "source_url": null,
+          "source_label": null
+        },
+        "climat": {
+          "value": "Pro-nucléaire, sceptique sur certaines normes vertes",
+          "source_url": null,
+          "source_label": null
+        },
+        "fiscalite": {
+          "value": "Baisse impôts, baisse dépense publique",
+          "source_url": null,
+          "source_label": null
+        },
+        "retraites": {
+          "value": "Soutien à la réforme 2023",
+          "source_url": null,
+          "source_label": null
+        },
+        "securite": {
+          "value": "Ligne dure (ministre Intérieur)",
+          "source_url": null,
+          "source_label": null
+        },
+        "ukraine": {
+          "value": "Soutien clair à l'Ukraine",
+          "source_url": null,
+          "source_label": null
+        },
+        "tribunes": {
+          "value": "Discours d'investiture présidence LR (18/05/2025). Tribunes récurrentes Le Figaro sur immigration / sécurité. Communiqués Place Beauvau (depuis 21/09/2024) ministère Intérieur.",
+          "source_url": "https://republicains.fr/",
+          "source_label": "Source : LR site + Le Figaro archives + Ministère Intérieur communiqués. URL : et"
+        },
+        "manifestations": {
+          "value": "Pas de manifestation type cortège (positionnement institutionnel sénateur puis ministre). Meetings de campagne LR à venir.",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "financement": {},
+      "synthese": {},
+      "affaires": [],
+      "discours_vs_actes": []
+    },
+    "melenchon": {
+      "slug": "melenchon",
+      "nom": "Jean-Luc Mélenchon",
+      "parti": "La France Insoumise",
+      "initiales": "JLM",
+      "identite": {
+        "date_naissance": {
+          "value": "1951-08-19",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia"
+        },
+        "lieu_naissance": {
+          "value": "Tanger (Maroc)",
+          "source_url": "https://fr.wikipedia.org/"
+        },
+        "formation": {
+          "value": "Lettres modernes (Besançon)"
+        },
+        "profession_origine": {
+          "value": "Professeur de français, journaliste"
+        },
+        "parti": {
+          "value": "La France Insoumise"
+        },
+        "mandat_principal": {
+          "value": "Aucun mandat électif depuis 2022",
+          "source_url": null,
+          "source_label": null
+        },
+        "premiere_election": {
+          "value": "Sénateur de l'Essonne (1986)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "fonctions_gouvernementales": {
+          "value": "Ministre délégué (1981-1983, gouv. Mauroy)",
+          "source_url": null,
+          "source_label": null
+        },
+        "presidence_parti": {
+          "value": "Aucune (figure tutélaire LFI)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "candidature_2027": {
+          "value": "Fondateur LFI, sans mandat électif depuis 22/06/2022, candidat à la présidentielle 2027 depuis 03/05/2026",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "activite_parlementaire": {
+        "presence_hemicycle": {
+          "value": "Présence hémicycle non publiée par AN. Mais activité forte : 162 semaines actives / 49 mois (XVe lég.) - voir lignes suivantes",
+          "source_url": "https://2017-2022.nosdeputes.fr/jean-luc-melenchon",
+          "source_label": "Source : NosDéputés"
+        },
+        "presence_commissions": {
+          "value": "120 présences commission sur 49 mois XVe lég. (fait partie des 150 moins actifs - mais forte activité en hémicycle)",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "interventions": {
+          "value": "Hémicycle : 2 416 interventions longues sur 49 mois (TOP 150 plus actifs - record). Commission : 284 interventions.",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "propositions_loi": {
+          "value": "31",
+          "source_url": "https://www.senat.fr/",
+          "source_label": "Source : NosDéputés 2012-2017"
+        },
+        "amendements": {
+          "value": "2"
+        },
+        "rapports": {
+          "value": "5"
+        },
+        "questions": {
+          "value": "115"
+        },
+        "cohesion_groupe": {
+          "value": "95,0 %",
+          "source_url": "https://www.datan.fr/",
+          "source_label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé"
+        },
+        "conference_presidents_pe": {
+          "value": "N/A",
+          "source_url": "https://www.liberation.fr/",
+          "source_label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or"
+        }
+      },
+      "patrimoine": {
+        "patrimoine_declare": {
+          "value": "NON TROUVE chiffre vérifié sur PDF brut. A ouvrir : DSP fin mandat AN 21/06/2022 et DSP candidat présidentiel 2022. Page nominative : https://www.hatvp.fr/fiche-nominative/?declarant=melenchon-jean-luc",
+          "source_url": "https://www.hatvp.fr/fiche-nominative/?declarant=melenchon-jean-luc",
+          "source_label": "NON TROUVE - voie de recours : PDF HATVP brut"
+        },
+        "revenus_annuels": {
+          "value": "Aucun mandat électif depuis 22/06/2022. Revenus 2022-2026 : droits d'auteur (livres Plon/Seuil), conférences, pension ex-sénateur. Montants a extraire de la DSP fin de mandat HATVP.",
+          "source_url": "https://www.hatvp.fr/fiche-nominative/?declarant=melenchon-jean-luc",
+          "source_label": "NON TROUVE - voie de recours : PDF HATVP brut"
+        }
+      },
+      "positions": {
+        "immigration": {
+          "value": "Accueil, opposition aux lois restrictives",
+          "source_url": null,
+          "source_label": null
+        },
+        "europe": {
+          "value": "Critique fortement le cadre actuel UE",
+          "source_url": null,
+          "source_label": null
+        },
+        "climat": {
+          "value": "Planification écologique, sortie énergies fossiles",
+          "source_url": null,
+          "source_label": null
+        },
+        "fiscalite": {
+          "value": "Hausse impôts hauts revenus, rétablir ISF",
+          "source_url": null,
+          "source_label": null
+        },
+        "retraites": {
+          "value": "Opposition frontale, abrogation demandée",
+          "source_url": null,
+          "source_label": null
+        },
+        "securite": {
+          "value": "Critique du tout-sécuritaire",
+          "source_url": null,
+          "source_label": null
+        },
+        "ukraine": {
+          "value": "Critique OTAN, position pacifiste contestée",
+          "source_url": null,
+          "source_label": null
+        },
+        "tribunes": {
+          "value": "Blog melenchon.fr actif (allocutions vidéos hebdomadaires). Entretien Politis novembre 2025 ('Nous sommes les plus forts à gauche'). Livres : 'Faut-il aimer Mitterrand ?' (2024), 'Et ainsi de suite' (2023). Allocution Pass sanitaire (25/07/2021) référence sur libertés.",
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Source : melenchon.fr + Politis 11/2025 + bibliographie. URL"
+        },
+        "manifestations": {
+          "value": "Nombreuses : 1er mai 2025 Paris (avec drapeaux palestiniens et soutien Gaza) ; mobilisation jeunesse septembre 2024 ; manifestation 2 octobre 2025 (urgence sociale) ; manifestations retraites 31/01/2023 ; manifestations climat. Allocutions sur tribune systématiques.",
+          "source_url": "https://www.europe1.fr/politique/1er-mai-sous-tension-jean-luc-melenchon-embrase-la-manifestation",
+          "source_label": "Source : Europe 1 1er mai 2025 + Politis octobre 2025 + Public Sénat. URLs"
+        }
+      },
+      "financement": {
+        "derniere_campagne": {
+          "value": "Présidentielle 2022 (1er tour 21,95 %)",
+          "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047062424"
+        },
+        "total_depenses": {
+          "value": "13,52 M€",
+          "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047062424"
+        }
+      },
+      "synthese": {},
+      "affaires": [
+        {
+          "intitule": "Perquisition LFI 2018 — violence sur agents",
+          "nature": "Condamnation",
+          "statut_juridique": "Condamnation 1ère instance Bobigny le 09/12/2019 : 3 mois sursis + 8 000 EUR amende pour rébellion, provocation directe a la rébellion, intimidation envers magistrats. Mélenchon a renoncé a l'appel. Statut definitif a vérifier via Légifrance.",
+          "annee": "2018-2019",
+          "source_url": "https://www.france24.com/fr/20191209-france-melenchon-condamne-trois-mois-prison-sursis-perquisition-lfi",
+          "source_label": "Source : France 24 09/12/2019 + Dalloz Actualité. URL"
+        },
+        {
+          "intitule": "Compte de campagne 2017",
+          "nature": "Procédure",
+          "statut_juridique": "Compte 2022 : APPROUVE par CNCCFP le 14/12/2022 (publication JORF 27/01/2023) avec réformation de -10 419 EUR (frais Sénégal/Chili non justifiés). Examen des liens avec la société L'Internationale (S. Chikirou). Enquête PNF historique 2017 sur surfacturation : statut 2026 a confirmer.",
+          "annee": "2017-…",
+          "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046057081",
+          "source_label": "Source : CNCCFP décision 14/12/2022 + JORFTEXT000046057081. URL"
+        }
+      ],
+      "discours_vs_actes": []
+    },
+    "attal": {
+      "slug": "attal",
+      "nom": "Gabriel Attal",
+      "parti": "Renaissance",
+      "initiales": "GA",
+      "identite": {
+        "date_naissance": {
+          "value": "1989-03-16",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia"
+        },
+        "lieu_naissance": {
+          "value": "Clamart (Hauts-de-Seine)",
+          "source_url": "https://fr.wikipedia.org/"
+        },
+        "formation": {
+          "value": "Sciences Po Paris, Master droit public"
+        },
+        "profession_origine": {
+          "value": "Collaborateur politique, conseiller ministériel"
+        },
+        "parti": {
+          "value": "Renaissance"
+        },
+        "mandat_principal": {
+          "value": "Député (Hauts-de-Seine, 7e circ.)",
+          "source_url": null,
+          "source_label": null
+        },
+        "premiere_election": {
+          "value": "Député des Hauts-de-Seine (2017)",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "fonctions_gouvernementales": {
+          "value": "Premier ministre (janv-sept 2024), Min. Éducation, Min. Comptes publics, Porte-parole",
+          "source_url": null,
+          "source_label": null
+        },
+        "presidence_parti": {
+          "value": "Aucune fonction de président de parti",
+          "source_url": "https://fr.wikipedia.org/",
+          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+        },
+        "candidature_2027": {
+          "value": "Pressenti / non officiellement déclaré",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "activite_parlementaire": {
+        "presence_hemicycle": {
+          "value": "93,0 %",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "presence_commissions": {
+          "value": "80 présences commission sur 14 mois (XVe lég., juin 2017-nov 2018 avant nomination secrétaire d'État)",
+          "source_url": "https://2017-2022.nosdeputes.fr/gabriel-attal",
+          "source_label": "Source : NosDéputés 2017-2022"
+        },
+        "interventions": {
+          "value": "Hémicycle : 227 interventions longues sur 14 mois (top 150 plus actifs). Commission : 162 interventions (top 150). Très actif comme rapporteur.",
+          "source_url": "https://www.nosdeputes.fr/",
+          "source_label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d"
+        },
+        "propositions_loi": {
+          "value": "38 propositions (lois + résolutions) - dont ~23 en 1er auteur",
+          "source_url": "https://www.senat.fr/",
+          "source_label": "Source : NosDéputés 2012-2017"
+        },
+        "amendements": {
+          "value": "42 amendements proposés sur 14 mois (XVe lég.) - 39 adoptés (taux d'adoption élevé en tant que rapporteur). 368 cosignés."
+        },
+        "rapports": {
+          "value": "2 rapports écrits sur 14 mois (loi Orientation et réussite des étudiants - rapporteur AC&E)"
+        },
+        "questions": {
+          "value": "10"
+        },
+        "cohesion_groupe": {
+          "value": "99,0 %",
+          "source_url": "https://www.datan.fr/",
+          "source_label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé"
+        },
+        "conference_presidents_pe": {
+          "value": "N/A",
+          "source_url": "https://www.liberation.fr/",
+          "source_label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or"
+        }
+      },
+      "patrimoine": {
+        "patrimoine_declare": {
+          "value": "130 k€",
+          "source_url": "https://www.hatvp.fr/presse/publication-des-declarations-de-fin-de-mandat-des-anciens-membres-du-gouvernement-de-m-gabriel-attal/",
+          "source_label": "Source : HATVP communiqué Attal. URL"
+        },
+        "revenus_annuels": {
+          "value": "2020 + 2021: 99 072 (Sec. État Porte-parole). 2022: 66 199 (Min. Comptes pub.) + 49 536 (Sec. État). 2023: 63 397 (Min. Comptes pub.) + 49 248 (Min. Éducation). 2024: 2 752 (Min. Éducation) + 79 599 (PM).",
+          "source_url": "https://www.hatvp.fr/",
+          "source_label": "Source : HATVP. URL"
+        }
+      },
+      "positions": {
+        "immigration": {
+          "value": "Fermeté, défense des lois Darmanin/Retailleau",
+          "source_url": null,
+          "source_label": null
+        },
+        "europe": {
+          "value": "Pro-européen libéral",
+          "source_url": null,
+          "source_label": null
+        },
+        "climat": {
+          "value": "Pro-nucléaire + renouvelables, ligne gouvernementale",
+          "source_url": null,
+          "source_label": null
+        },
+        "fiscalite": {
+          "value": "Baisse impôts, soutien à la production",
+          "source_url": null,
+          "source_label": null
+        },
+        "retraites": {
+          "value": "A défendu la réforme 2023",
+          "source_url": null,
+          "source_label": null
+        },
+        "securite": {
+          "value": "Fermeté ligne gouvernementale",
+          "source_url": null,
+          "source_label": null
+        },
+        "ukraine": {
+          "value": "Soutien clair à l'Ukraine",
+          "source_url": null,
+          "source_label": null
+        },
+        "tribunes": {
+          "value": "Déclaration de politique générale 30/01/2024 à l'AN (en tant que PM). Discours mort PM 21/09/2024. Multiples interventions presse 2024-2026 (BFM, France Inter, RTL). Site personnel : gabrielattal.fr",
+          "source_url": "https://gabrielattal.fr/",
+          "source_label": "Source : AN compte rendu DPG 30/01/2024 + presse + site officiel. URL"
+        },
+        "manifestations": {
+          "value": "Pas de manifestation type cortège. Meetings et déplacements de présidence groupe EPR. Participations cérémonies républicaines.",
+          "source_url": null,
+          "source_label": null
+        }
+      },
+      "financement": {},
+      "synthese": {},
+      "affaires": [],
+      "discours_vs_actes": []
+    }
+  }
+}

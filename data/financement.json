@@ -1,0 +1,138 @@
+{
+  "campagnes_par_candidat": [
+    {
+      "candidat_nom": "Jean-Luc Mélenchon",
+      "election": "Présidentielle 2022 (1er tour 21,95 %)",
+      "date_decision": "2022-12-14",
+      "depenses": "13,52 M€",
+      "recettes": "13,92 M€",
+      "remboursement": "7,65 M€",
+      "reformations": "-10 419 € (déplacements Sénégal/Chili) + -12 178 € (transports Outre-mer) + -15 000 € (autocollants 1,2 M jugés excessifs)",
+      "source_url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047062424"
+    },
+    {
+      "candidat_nom": "Jordan Bardella",
+      "election": "Européennes juin 2024 (tête de liste RN - 31,37 %)",
+      "date_decision": "2024-12-16",
+      "depenses": "4,10 M€",
+      "recettes": null,
+      "remboursement": "Admis au remboursement",
+      "reformations": "~240 000 € refusés (124 k€ primes 31 salariés, champagne 1 200 €, dégustation 400 €, repas non justifiés 10 k€, protection rapprochée surfacturée)",
+      "source_url": "https://cnccfp.fr/wp-content/uploads/2025/03/cnccfp-decisions_europeennes_2024.pdf"
+    }
+  ],
+  "comptes_partis_2024": [
+    {
+      "parti": "Rassemblement National",
+      "total_bilan": "7,90 M€",
+      "produits_2024": "18,70 M€",
+      "aide_publique_2024": "10,20 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "18,90 M€",
+      "dont_banques": null,
+      "dont_personnes_physiques": "16,00 M€"
+    },
+    {
+      "parti": "Les Républicains",
+      "total_bilan": "8,60 M€",
+      "produits_2024": "15,70 M€",
+      "aide_publique_2024": "9,50 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "12,30 M€",
+      "dont_banques": "8,70 M€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "La France Insoumise",
+      "total_bilan": "6,90 M€",
+      "produits_2024": "13,80 M€",
+      "aide_publique_2024": "7,90 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "5,90 M€",
+      "dont_banques": "4,40 M€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Renaissance",
+      "total_bilan": "41,00 M€",
+      "produits_2024": "19,50 M€",
+      "aide_publique_2024": "13,20 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "19,30 M€",
+      "dont_banques": "16,00 M€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Horizons",
+      "total_bilan": "1,90 M€",
+      "produits_2024": "3,50 M€",
+      "aide_publique_2024": "2,50 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "300 k€",
+      "dont_banques": null,
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Parti socialiste",
+      "total_bilan": "41,30 M€",
+      "produits_2024": "15,70 M€",
+      "aide_publique_2024": "4,70 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "7,90 M€",
+      "dont_banques": "3,50 M€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Parti Communiste Français",
+      "total_bilan": "39,80 M€",
+      "produits_2024": "31,60 M€",
+      "aide_publique_2024": "2,10 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "5,30 M€",
+      "dont_banques": "1,00 M€",
+      "dont_personnes_physiques": "200 k€"
+    },
+    {
+      "parti": "Les Écologistes (EELV)",
+      "total_bilan": "18,50 M€",
+      "produits_2024": "8,80 M€",
+      "aide_publique_2024": "3,20 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "7,90 M€",
+      "dont_banques": "5,50 M€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Reconquête !",
+      "total_bilan": "6,50 M€",
+      "produits_2024": "5,50 M€",
+      "aide_publique_2024": "1,60 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "1,40 M€",
+      "dont_banques": null,
+      "dont_personnes_physiques": "500 k€"
+    },
+    {
+      "parti": "Mouvement démocrate",
+      "total_bilan": "7,40 M€",
+      "produits_2024": "4,60 M€",
+      "aide_publique_2024": "3,80 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "600 k€",
+      "dont_banques": "12 k€",
+      "dont_personnes_physiques": null
+    },
+    {
+      "parti": "Union des démocrates et indépendants",
+      "total_bilan": "4,00 M€",
+      "produits_2024": "2,60 M€",
+      "aide_publique_2024": "2,20 M€",
+      "aide_publique_2025": null,
+      "dettes_total": "200 k€",
+      "dont_banques": null,
+      "dont_personnes_physiques": null
+    }
+  ],
+  "partis_source_label": "CNCCFP — Avis publication générale des comptes des partis 2024 (février 2026)",
+  "partis_source_url": "https://cnccfp.fr/wp-content/uploads/2026/02/CNCCFP_DP_Avis_2024.pdf"
+}

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "presomption-innocence",
+    "terme": "Présomption d'innocence",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Toute personne est présumée innocente tant qu'elle n'a pas été déclarée coupable par une décision de justice définitive.",
+    "definition_longue": "Principe fondamental garanti par l'article 9 de la Déclaration des droits de l'homme et l'article 6 §2 de la Convention européenne des droits de l'homme. Tant qu'une condamnation n'est pas devenue définitive (épuisement des voies de recours), il est interdit de présenter une personne mise en cause comme coupable. Ce site n'emploie jamais de termes définitifs (« coupable », « fautif ») avant condamnation définitive."
+  },
+  {
+    "id": "enquete-preliminaire",
+    "terme": "Enquête préliminaire",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Première phase d'investigation menée par le parquet, avant l'ouverture éventuelle d'une instruction.",
+    "definition_longue": "Conduite par le procureur de la République ou la police judiciaire sous son autorité. Elle peut déboucher sur un classement sans suite, une procédure simplifiée, ou l'ouverture d'une information judiciaire (instruction)."
+  },
+  {
+    "id": "instruction",
+    "terme": "Instruction judiciaire",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Phase d'investigation approfondie menée par un juge d'instruction.",
+    "definition_longue": "Le juge d'instruction enquête à charge et à décharge. Il peut entendre les personnes mises en cause sous le statut de simple témoin, de témoin assisté, ou les mettre en examen, avant de décider d'un éventuel renvoi devant la juridiction de jugement."
+  },
+  {
+    "id": "temoin-assiste",
+    "terme": "Témoin assisté",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Statut intermédiaire entre simple témoin et personne mise en examen. La personne est entendue avec un avocat mais les indices ne suffisent pas à une mise en examen.",
+    "definition_longue": "Statut prévu par l'article 113-1 du Code de procédure pénale. La personne est entendue dans le cadre d'une instruction, peut être assistée d'un avocat, mais n'est pas formellement mise en examen — les indices sont jugés insuffisamment graves et concordants. Ce statut est plus favorable que celui de mis en examen ; il n'implique aucune présomption de culpabilité."
+  },
+  {
+    "id": "mis-en-examen",
+    "terme": "Mis en examen",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Personne contre laquelle existent des indices graves ou concordants rendant vraisemblable sa participation aux faits.",
+    "definition_longue": "Article 80-1 du Code de procédure pénale. La mise en examen permet à la personne d'avoir accès à la procédure et de pouvoir faire valoir ses droits de défense. Elle ne constitue en aucun cas une déclaration de culpabilité : la présomption d'innocence demeure pleine et entière."
+  },
+  {
+    "id": "renvoye",
+    "terme": "Renvoyé devant la juridiction",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Décision du juge d'instruction d'envoyer la personne devant un tribunal pour y être jugée.",
+    "definition_longue": "Au terme de l'instruction, le juge peut prononcer un non-lieu (clôture sans suite) ou un renvoi (ordonnance de renvoi devant un tribunal correctionnel ou de mise en accusation devant une cour d'assises). C'est le jugement qui statuera sur la culpabilité."
+  },
+  {
+    "id": "condamne-1ere-instance",
+    "terme": "Condamné en 1ère instance",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Première décision de condamnation, susceptible d'appel pendant 10 jours (matière correctionnelle).",
+    "definition_longue": "La décision n'est pas définitive : la personne ou le ministère public peuvent faire appel, ce qui rejuge l'affaire complètement. La présomption d'innocence partielle subsiste jusqu'à l'exhaussement des voies de recours."
+  },
+  {
+    "id": "condamne-appel",
+    "terme": "Condamné en appel",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Décision rendue par la cour d'appel après nouvel examen complet du dossier. Susceptible de pourvoi en cassation.",
+    "definition_longue": "La cour d'appel rejuge l'affaire en fait et en droit. Sa décision peut être contestée par pourvoi en cassation, mais ce pourvoi ne porte que sur la régularité juridique, pas sur les faits."
+  },
+  {
+    "id": "condamne-definitif",
+    "terme": "Condamné définitivement",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Condamnation qui ne peut plus être contestée. Toutes les voies de recours sont épuisées.",
+    "definition_longue": "La condamnation est devenue irrévocable : pas d'appel possible, ou pourvoi en cassation rejeté/non formé. C'est seulement à ce stade que la personne est juridiquement « coupable »."
+  },
+  {
+    "id": "cjr",
+    "terme": "CJR — Cour de justice de la République",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Juridiction spéciale compétente pour juger les ministres pour des faits commis dans l'exercice de leurs fonctions.",
+    "definition_longue": "Créée en 1993, composée de 12 parlementaires et 3 magistrats. Elle est saisie via une commission des requêtes. Une réforme constitutionnelle visant à sa suppression est régulièrement débattue."
+  },
+  {
+    "id": "classement-sans-suite",
+    "terme": "Classement sans suite",
+    "categorie": "Termes juridiques",
+    "definition_courte": "Décision du parquet de ne pas poursuivre une plainte ou un signalement.",
+    "definition_longue": "Article 40-1 du Code de procédure pénale. Le procureur estime qu'il n'y a pas d'infraction caractérisée, que l'auteur est inconnu, ou que les poursuites ne sont pas opportunes. La victime peut alors se constituer partie civile pour relancer la procédure."
+  },
+  {
+    "id": "hatvp",
+    "terme": "HATVP",
+    "categorie": "Transparence et déclarations",
+    "definition_courte": "Haute Autorité pour la transparence de la vie publique : autorité administrative indépendante chargée du contrôle des déclarations de patrimoine et d'intérêts.",
+    "definition_longue": "Créée en 2013 après l'affaire Cahuzac. Elle reçoit, contrôle et rend publiques les déclarations de patrimoine et d'intérêts d'environ 18 000 responsables publics : membres du gouvernement, parlementaires, élus locaux importants, dirigeants d'entreprises publiques, etc."
+  },
+  {
+    "id": "dsp",
+    "terme": "DSP — Déclaration de situation patrimoniale",
+    "categorie": "Transparence et déclarations",
+    "definition_courte": "Document détaillé des biens (immobilier, comptes, véhicules, dettes) déposé à l'entrée et à la sortie de chaque mandat.",
+    "definition_longue": "Distincte de la déclaration d'intérêts. Elle permet de mesurer l'évolution du patrimoine pendant un mandat (et de détecter d'éventuels enrichissements suspects). Publiée sur le site de la HATVP."
+  },
+  {
+    "id": "dia",
+    "terme": "DIA — Déclaration d'intérêts et d'activités",
+    "categorie": "Transparence et déclarations",
+    "definition_courte": "Document listant les activités professionnelles, mandats, fonctions et intérêts financiers exercés par le déclarant.",
+    "definition_longue": "Sert à prévenir et détecter les conflits d'intérêts. Inclut les activités du conjoint (sans valorisation patrimoniale). Mise à jour en cours de mandat si un nouvel intérêt apparaît."
+  },
+  {
+    "id": "pantouflage",
+    "terme": "Pantouflage",
+    "categorie": "Transparence et déclarations",
+    "definition_courte": "Passage d'un haut fonctionnaire ou d'un responsable politique vers le secteur privé.",
+    "definition_longue": "Soumis à un avis de la HATVP (commission de déontologie pour les fonctionnaires). Peut soulever des questions de conflit d'intérêts si le poste privé est lié à un secteur précédemment supervisé."
+  },
+  {
+    "id": "conflit-interets",
+    "terme": "Conflit d'intérêts",
+    "categorie": "Transparence et déclarations",
+    "definition_courte": "Situation où un intérêt privé peut influencer l'exercice d'une fonction publique.",
+    "definition_longue": "Article 2 de la loi du 11 octobre 2013 : « toute situation d'interférence entre un intérêt public et des intérêts publics ou privés qui est de nature à influencer ou paraître influencer l'exercice indépendant, impartial et objectif d'une fonction »."
+  },
+  {
+    "id": "cnccfp",
+    "terme": "CNCCFP",
+    "categorie": "Financement politique",
+    "definition_courte": "Commission nationale des comptes de campagne et des financements politiques : autorité indépendante contrôlant l'argent en politique.",
+    "definition_longue": "Créée en 1990. Elle contrôle les comptes de campagne des candidats et les comptes annuels des partis politiques. Ses décisions peuvent être contestées devant le Conseil d'État. Toutes ses décisions sont publiées au JORF."
+  },
+  {
+    "id": "compte-campagne",
+    "terme": "Compte de campagne",
+    "categorie": "Financement politique",
+    "definition_courte": "Relevé exhaustif des recettes et dépenses engagées par un candidat pour sa campagne électorale.",
+    "definition_longue": "Obligatoire pour toute élection au-dessus d'un certain seuil. Tenu par un mandataire financier (personne physique ou association de financement). Doit être déposé à la CNCCFP dans les 2 mois suivant le scrutin."
+  },
+  {
+    "id": "plafond-depenses",
+    "terme": "Plafond de dépenses",
+    "categorie": "Financement politique",
+    "definition_courte": "Montant maximum de dépenses qu'un candidat peut engager pendant sa campagne.",
+    "definition_longue": "Présidentielle 2022 : 16 851 000 € au 1er tour, 22 509 000 € au 2nd tour. Le dépassement entraîne le rejet du compte et l'inéligibilité du candidat."
+  },
+  {
+    "id": "reformation",
+    "terme": "Réformation",
+    "categorie": "Financement politique",
+    "definition_courte": "Montant retiré du compte de campagne par la CNCCFP parce qu'il ne respecte pas les règles (justification insuffisante, dépense étrangère à la campagne, etc.).",
+    "definition_longue": "La CNCCFP peut réformer (réduire) le compte présenté. Le montant réformé n'est pas remboursé par l'État. Exemples : déplacements personnels, dépenses non liées à la campagne, justificatifs manquants."
+  },
+  {
+    "id": "remboursement-public",
+    "terme": "Remboursement public",
+    "categorie": "Financement politique",
+    "definition_courte": "Fraction des dépenses remboursée par l'État aux candidats ayant obtenu au moins 5 % des suffrages exprimés.",
+    "definition_longue": "Présidentielle : jusqu'à 47,5 % du plafond pour les candidats ayant obtenu ≥5 % au 1er tour. Plus faible pour les autres seuils. Le remboursement est plafonné au montant de l'apport personnel du candidat."
+  },
+  {
+    "id": "aide-publique-partis",
+    "terme": "Aide publique aux partis",
+    "categorie": "Financement politique",
+    "definition_courte": "Dotation annuelle versée par l'État aux partis politiques (deux fractions : sur résultats législatifs et sur représentation parlementaire).",
+    "definition_longue": "Régie par la loi du 11 mars 1988. 1ère fraction : proportionnelle aux suffrages obtenus aux dernières législatives (>1 % dans au moins 50 circonscriptions). 2ème fraction : proportionnelle au nombre de parlementaires affiliés. Total annuel : ~66 M€."
+  },
+  {
+    "id": "scrutin-solennel",
+    "terme": "Scrutin solennel",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Vote public sur l'ensemble d'un texte, en séance plénière, à une date annoncée à l'avance.",
+    "definition_longue": "Contrairement au vote à main levée ou au vote ordinaire, le scrutin solennel est nominatif (chaque vote est public) et programmé dans le calendrier. C'est la métrique la plus utilisée pour mesurer la présence des parlementaires."
+  },
+  {
+    "id": "scrutin-public",
+    "terme": "Scrutin public",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Vote dont le résultat individuel de chaque parlementaire est rendu public.",
+    "definition_longue": "Au Sénat, tous les scrutins publics sont par défaut publics. À l'AN, le scrutin public est demandé par le président d'un groupe ou le président de séance. Les scrutins solennels sont automatiquement publics."
+  },
+  {
+    "id": "cohesion-groupe",
+    "terme": "Cohésion de groupe",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Pourcentage de votes d'un parlementaire alignés sur la position majoritaire de son groupe politique.",
+    "definition_longue": "Indicateur calculé par Datan.fr (AN) et HowTheyVote.eu (PE). Un score >95 % est typique ; un score <85 % signale un parlementaire « dissident » par rapport à sa famille politique."
+  },
+  {
+    "id": "rapporteur",
+    "terme": "Rapporteur (titulaire / fictif)",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Parlementaire chargé d'examiner un texte au fond et de présenter un rapport au reste de l'assemblée.",
+    "definition_longue": "« Rapporteur titulaire » : porte officiellement le rapport. « Shadow rapporteur » (rapporteur fictif) au Parlement européen : rapporteur désigné par les autres groupes politiques pour suivre le texte en parallèle. Le nombre de rapports écrits est un indicateur d'implication."
+  },
+  {
+    "id": "proposition-loi",
+    "terme": "Proposition de loi (PPL)",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Texte de loi déposé par un parlementaire (à la différence du projet de loi, déposé par le gouvernement).",
+    "definition_longue": "Très peu de PPL sont effectivement adoptées (~10 % en moyenne). Le nombre de PPL déposées en tant qu'auteur principal est l'un des indicateurs d'activité législative — mais pas son efficacité."
+  },
+  {
+    "id": "projet-loi",
+    "terme": "Projet de loi",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Texte de loi présenté par le gouvernement et examiné par le Parlement.",
+    "definition_longue": "Par opposition à la proposition de loi (PPL) déposée par un parlementaire. Les projets de loi représentent la majorité des textes adoptés."
+  },
+  {
+    "id": "amendement",
+    "terme": "Amendement",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Proposition de modification d'un texte de loi en discussion.",
+    "definition_longue": "Peut être déposé par un parlementaire, un groupe, le rapporteur, ou le gouvernement. Le « taux d'adoption » des amendements (rapport entre amendements adoptés et déposés) est un indicateur d'influence."
+  },
+  {
+    "id": "49-3",
+    "terme": "49.3",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Article 49 alinéa 3 de la Constitution : le gouvernement engage sa responsabilité sur un texte, qui est adopté sans vote sauf motion de censure.",
+    "definition_longue": "Le Premier ministre engage la responsabilité du gouvernement. Si une motion de censure n'est pas adoptée dans les 24 h par la majorité absolue des députés, le texte est considéré comme adopté. Utilisé notamment pour la réforme des retraites 2023."
+  },
+  {
+    "id": "motion-censure",
+    "terme": "Motion de censure",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Texte voté par les députés pour renverser le gouvernement.",
+    "definition_longue": "Doit recueillir la majorité absolue des députés (289 voix). Si adoptée, le gouvernement doit démissionner. La motion contre le gouvernement Barnier a été adoptée le 4 décembre 2024 — la première fois depuis 1962."
+  },
+  {
+    "id": "conference-presidents",
+    "terme": "Conférence des présidents",
+    "categorie": "Activité parlementaire",
+    "definition_courte": "Instance regroupant les présidents de groupes politiques pour organiser le calendrier des travaux d'une assemblée.",
+    "definition_longue": "Existe au PE, à l'AN et au Sénat. Y siègent les présidents des groupes politiques. Au Parlement européen, elle fixe l'ordre du jour des sessions plénières."
+  },
+  {
+    "id": "mep",
+    "terme": "MEP — Member of the European Parliament",
+    "categorie": "Parlement européen",
+    "definition_courte": "Député européen, élu pour 5 ans au suffrage universel direct.",
+    "definition_longue": "720 députés européens (depuis 2024), répartis par État membre proportionnellement à la population. La France élit 81 députés."
+  },
+  {
+    "id": "groupe-id",
+    "terme": "ID — Identity and Democracy",
+    "categorie": "Parlement européen",
+    "definition_courte": "Groupe politique du Parlement européen (2019-2024) où siégeait le Rassemblement National et Jordan Bardella.",
+    "definition_longue": "Créé en juin 2019, dissous en juillet 2024. Réunissait notamment le RN (France), la Lega (Italie), AfD (Allemagne, ensuite exclue), FPÖ (Autriche). Successeur : groupe Patriots for Europe (PfE)."
+  },
+  {
+    "id": "groupe-pfe",
+    "terme": "PfE — Patriots for Europe",
+    "categorie": "Parlement européen",
+    "definition_courte": "Groupe politique créé en juillet 2024, présidé par Jordan Bardella. Successeur d'ID.",
+    "definition_longue": "Créé le 8 juillet 2024 par Viktor Orbán (Fidesz) et rejoint notamment par le RN, la Lega, FPÖ. Troisième groupe du Parlement européen en nombre de sièges (84 députés)."
+  },
+  {
+    "id": "frontex",
+    "terme": "Frontex",
+    "categorie": "Parlement européen",
+    "definition_courte": "Agence européenne de garde-frontières et de garde-côtes.",
+    "definition_longue": "Basée à Varsovie. Soutient les États membres dans la surveillance des frontières extérieures de l'UE. La « décharge » est le vote par lequel le Parlement européen approuve (ou non) la gestion budgétaire de l'agence."
+  },
+  {
+    "id": "ai-act",
+    "terme": "AI Act",
+    "categorie": "Parlement européen",
+    "definition_courte": "Règlement européen sur l'intelligence artificielle, adopté en mars 2024.",
+    "definition_longue": "Premier cadre juridique mondial sur l'IA. Catégorise les systèmes d'IA selon leur niveau de risque et impose des obligations (transparence, supervision humaine, évaluation). Entrée en vigueur progressive 2025-2027."
+  },
+  {
+    "id": "cbam",
+    "terme": "CBAM — Carbon Border Adjustment Mechanism",
+    "categorie": "Parlement européen",
+    "definition_courte": "Taxe carbone aux frontières de l'UE sur les importations à fort contenu carbone.",
+    "definition_longue": "Vise à éviter les « fuites carbone » (délocalisation vers des pays sans contrainte climatique). S'applique progressivement à partir de 2026 sur l'acier, le ciment, l'aluminium, les engrais, l'électricité et l'hydrogène."
+  },
+  {
+    "id": "pacte-asile-ue",
+    "terme": "Pacte UE Asile et Migration",
+    "categorie": "Parlement européen",
+    "definition_courte": "Ensemble de 10 textes réformant la politique européenne d'asile et de gestion des frontières, adoptés le 10 avril 2024.",
+    "definition_longue": "Prévoit un mécanisme de solidarité obligatoire entre États membres (accueil ou contribution financière), des procédures aux frontières accélérées, et une base de données commune (Eurodac renforcée). Entrée en application : juin 2026."
+  },
+  {
+    "id": "ukraine-facility",
+    "terme": "Ukraine Facility",
+    "categorie": "Parlement européen",
+    "definition_courte": "Programme européen de soutien financier à l'Ukraine, voté en février 2024 (50 Md€ sur 2024-2027).",
+    "definition_longue": "Combine prêts et dons à l'Ukraine pour financer son fonctionnement et sa reconstruction. Voté à la majorité au Parlement européen ; opposition notable du groupe ID puis PfE (dont le RN)."
+  }
+]

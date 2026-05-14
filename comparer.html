@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Comparer — Observations Présidentielles 2027</title>
+  <meta name="description" content="Comparez 2 à 5 candidats côte à côte sur le sujet de votre choix.">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="comparer">
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-title">Observations&nbsp;Présidentielles&nbsp;2027</a>
+        <p class="site-subtitle">Observatoire citoyen non partisan</p>
+      </div>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html">Accueil</a>
+        <a href="comparer.html" aria-current="page">Comparer</a>
+        <a href="glossaire.html">Glossaire</a>
+        <a href="methodologie.html">Méthodologie</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <section class="hero">
+      <h1>Comparer les candidats sur un sujet</h1>
+      <p class="baseline">Choisissez un sujet, puis sélectionnez les candidats à comparer. Le tableau reprend exactement la structure d'une page sujet, filtrée sur vos choix.</p>
+    </section>
+
+    <ol class="steps-bar" aria-label="Étapes de comparaison">
+      <li class="step is-active" id="step-1"><span class="step-num">1</span> Choisir un sujet</li>
+      <li class="step" id="step-2"><span class="step-num">2</span> Choisir des candidats</li>
+      <li class="step" id="step-3"><span class="step-num">3</span> Lire la comparaison</li>
+    </ol>
+
+    <section class="section-block" id="comparer-sujets">
+      <h2>1. Sur quel sujet voulez-vous comparer ?</h2>
+      <div id="comparer-sujets-grid" class="sujets-grid"></div>
+    </section>
+
+    <form class="comparer-form" id="comparer-form" hidden>
+      <fieldset>
+        <legend>2. Candidats à comparer</legend>
+        <div class="choices" id="comparer-choices"></div>
+      </fieldset>
+      <fieldset>
+        <legend>&nbsp;</legend>
+        <button type="button" class="btn btn--ghost" onclick="window.print()">Imprimer / Exporter PDF</button>
+        <button type="button" class="btn btn--ghost" id="comparer-change-subject">Changer de sujet</button>
+      </fieldset>
+    </form>
+
+    <section id="comparer-output" aria-live="polite"></section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="methodologie.html">Méthodologie</a> · <a href="glossaire.html">Glossaire</a></p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>

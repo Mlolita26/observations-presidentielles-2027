@@ -1,0 +1,1482 @@
+[
+  {
+    "theme": "Climat & écologie",
+    "texte": "Loi Climat et Résilience",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A (loi française - Bardella au PE)",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture 29/06/2021 - LR Sénat majoritaire POUR avec 193 voix POUR / 100 CONTRE / 54 ABS ; Retailleau a fait adopter un amendement sur l'article 1er de la Constitution)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (AN - LFI groupe CONTRE l'ensemble du texte ; LFI et PCF se sont abstenus uniquement sur Art. 36 vols intérieurs)",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était secrétaire d'État Éducation auprès du gouvernement portant le texte)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Loi accélération production énergies renouvelables",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture 04/11/2022 et adoption définitive 07/02/2023 - LR Sénat largement POUR ; texte adopté à 320 vs 5)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était porte-parole du gouvernement à cette date)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Loi relance du nucléaire",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture 24/01/2023 et adoption définitive 16/05/2023 - LR Sénat POUR, position constante pro-nucléaire de Retailleau)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal porte-parole puis ministre Comptes publics)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Retraites",
+    "texte": "Réforme des retraites (49.3)",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "POUR (Sénat - groupe LR a porté le texte)",
+        "source_url": "https://www.senat.fr/scrutin-public/",
+        "source_label": "Source : Sénat scrutin public 11/03/2023. A vérifier vote nominal sur"
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal porte-parole du gouvernement défendant la réforme - non parlementaire au moment du 49.3 du 16/03/2023)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Immigration",
+    "texte": "Loi immigration Darmanin",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "POUR (LR Sénat fervent défenseur du durcissement)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était ministre Éducation nationale + Comptes publics dans le gouv. portant le texte le 19/12/2023)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "PLF 2024 (vote solennel)",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 12/12/2023 - LR Sénat majoritaire POUR avec amendements de 7 Md EUR d'économies ; texte modifié, pas rejeté)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était ministre des Comptes publics auteur et défenseur du PLF 2024)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "PLF 2025 (vote solennel)",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A (Retailleau était ministre Intérieur dans le gouv. portant le PLF 2025)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "POUR",
+        "detail": "✅ POUR (PLF 2025 adopté définitivement le 06/02/2025 après censure Barnier - groupe EPR POUR, Attal cohérent à 99% avec EPR)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Sécurité & justice",
+    "texte": "Loi sécurité globale",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat - LR Sénat majoritaire POUR sur la PPL sécurité globale, adoptée 31/03/2021 - Retailleau POUR cohérent ligne sécuritaire)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (LFI a voté CONTRE à l'unanimité avec PS et PCF - Mélenchon CONTRE)",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal secrétaire d'État Éducation - non parlementaire en 2021)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Sécurité & justice",
+    "texte": "Loi confortant les principes de la République (séparatisme)",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture 12/04/2021 et lecture définitive juillet 2021 - LR Sénat POUR, avec amendements de durcissement de Retailleau)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "POUR",
+        "detail": "❌ CONTRE sur l'ensemble du texte (TA 16/02/2021 - LFI a voté CONTRE l'ensemble, malgré vote POUR sur ~40 pct des articles séparément)",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal secrétaire d'État Éducation - non parlementaire en 2021)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Sécurité & justice",
+    "texte": "Pass sanitaire / vaccinal",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (LR Sénat majoritairement POUR sur les lois 31/05/2021 et 05/08/2021 - position responsable face à la crise sanitaire)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (Mélenchon a publiquement déclaré 'J'ai voté CONTRE le pass vaccinal et CONTRE le pass sanitaire' - LFI CONTRE à l'unanimité)",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal secrétaire d'État Éducation - non parlementaire en 2021)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Société",
+    "texte": "IVG dans la Constitution",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "CONTRE",
+        "detail": "CONTRE (rare sénateur LR a voter contre - position défendue publiquement Congrès 04/03/2024)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "POUR",
+        "detail": "✅ POUR (le gouvernement Attal a porté la réforme)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Société",
+    "texte": "Fin de vie (projet de loi)",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A à l'AN 27/05/2025 (Retailleau était ministre Intérieur). Position publique : CONTRE l'aide à mourir.",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "POUR",
+        "detail": "✅ POUR (AN 27/05/2025 - scrutin n°2107 : adopté 305 POUR / 199 CONTRE ; Attal a voté POUR comme une partie d'EPR)",
+        "source_url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/2107",
+        "source_label": "Source : AN scrutin n°2107 du 27/05/2025 + Franceinfo carte députés. URL"
+      }
+    }
+  },
+  {
+    "theme": "Sécurité & justice",
+    "texte": "Loi orientation et programmation justice",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat - LR Sénat POUR la LOPJ 2023-2027 adoptée 20/10/2023 ; texte porté par majorité, cohérence ligne LR)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était ministre dans le gouvernement portant le texte en octobre 2023)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Pacte asile et migration UE",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (2024-04-10)",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Loi européenne sur le climat (Fit for 55)",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (2025-07-09)",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Soutien financier à l'Ukraine (Facilité UE)",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": "❌ CONTRE (2026-02-11)",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Règlement IA (AI Act)",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": "✅ POUR (2024-03-13)",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": "https://howtheyvote.eu/",
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "Loi plein emploi",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture juillet 2023 puis adoption définitive 14/11/2023 - LR Sénat largement POUR cohérent ligne réforme RSA)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était ministre Comptes publics + Éducation au moment du vote)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "Loi industrie verte",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "POUR",
+        "detail": "✅ POUR (Sénat 1ère lecture juillet 2023, adoption définitive 10/10/2023 - LR Sénat majoritaire POUR)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": "N/A (Attal était ministre Comptes publics au moment du vote)",
+        "source_url": null,
+        "source_label": null
+      }
+    }
+  },
+  {
+    "theme": "Sécurité & justice",
+    "texte": "Motion de censure du gouvernement Barnier",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": "N/A (ministre Intérieur dans gouv. Barnier)",
+        "source_url": null,
+        "source_label": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": "N/A",
+        "source_url": null,
+        "source_label": null
+      },
+      "attal": {
+        "position": "CONTRE",
+        "detail": "CONTRE la motion (= soutien a Barnier - position EPR officielle)",
+        "source_url": "https://lcp.fr/actualites/le-gouvernement-de-michel-barnier-censure-au-terme-d-une-journee-historique-a-l",
+        "source_label": "Source : LCP + Public Sénat 04/12/2024. URL"
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Artificial Intelligence Act",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "European Climate Law",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "European Climate Law",
+    "annee": 2020,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Carbon Border Adjustment Mechanism: simplification and strengthening",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Investments and reforms for European competitiveness and the creation of a Capital Markets Union",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Increasing the attractiveness of public capital markets and facilitating access to capital for SMEs – amending directive",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Renewable Energy Directive",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Immigration",
+    "texte": "Asylum and migration management",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Immigration",
+    "texte": "Common procedure for international protection in the Union",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Immigration",
+    "texte": "2022 discharge: European Border and Coast Guard Agency",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Ukraine & politique étrangère",
+    "texte": "Amending Regulation (EU) 2024/792 establishing the Ukraine Facility",
+    "annee": 2026,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Ukraine & politique étrangère",
+    "texte": "Establishing the Ukraine Facility",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Ukraine & politique étrangère",
+    "texte": "The human cost of Russia’s war against Ukraine and the urgent need to end Russian aggression: the situation of illegally detained civilians and prisoners of war, and the continued ",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Ukraine & politique étrangère",
+    "texte": "Definition of criminal offences and penalties for the violation of Union restrictive measures",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Future of agriculture and the post-2027 common agricultural policy",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Common agricultural policy (CAP) 2021–2027",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Sustainable use of plant protection products",
+    "annee": 2023,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Climat & écologie",
+    "texte": "Nature restoration",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "Adequate minimum wages in the European Union",
+    "annee": 2022,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Existence of a clear risk of a serious breach by Hungary of the values on which the Union is founded",
+    "annee": 2025,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Europe & souveraineté",
+    "texte": "Situation in Hungary and frozen EU funds",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "",
+    "texte": "Corporate sustainability due diligence",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "CONTRE",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "Improving working conditions in platform work",
+    "annee": 2024,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "POUR",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  },
+  {
+    "theme": "Économie & fiscalité",
+    "texte": "Fair working conditions, rights and social protection for platform workers - New forms of employment linked to digital development",
+    "annee": 2021,
+    "source_label": null,
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": null,
+        "source_url": "https://howtheyvote.eu/members/131580",
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
+  }
+]

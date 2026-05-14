@@ -1,0 +1,22 @@
+# OS / éditeurs
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+
+# Données locales / cache (regénérables via build_site_data.py)
+*.log
+*.tmp
+
+# Pas de fichier de cache JS / build (site statique pur)
+node_modules/

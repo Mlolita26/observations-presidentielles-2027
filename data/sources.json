@@ -1,0 +1,296 @@
+[
+  {
+    "label": "Wikipédia / sites officiels — Fiabilité 🟢",
+    "url": "https://fr.wikipedia.org/",
+    "organisation": "autre",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : France 24 22/10/2022 + Franceinfo. URL",
+    "url": "https://www.france24.com/fr/france/20221022-gestion-du-covid-19-edouard-philippe-echappe-a-une-mise-en-examen",
+    "organisation": "presse",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : France 24 09/12/2019 + Dalloz Actualité. URL",
+    "url": "https://www.france24.com/fr/20191209-france-melenchon-condamne-trois-mois-prison-sursis-perquisition-lfi",
+    "organisation": "presse",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : CNCCFP décision 14/12/2022 + JORFTEXT000046057081. URL",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046057081",
+    "organisation": "presse",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : Le Point 03/09/2024 + L'Avenir 07/10/2025 + Sud Radio 10/05/2026. URLs : et",
+    "url": "https://www.franceinfo.fr/politique/edouard-philippe/",
+    "organisation": "autre",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : LR site + Le Figaro archives + Ministère Intérieur communiqués. URL : et",
+    "url": "https://republicains.fr/",
+    "organisation": "autre",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : melenchon.fr + Politis 11/2025 + bibliographie. URL",
+    "url": "https://melenchon.fr/",
+    "organisation": "autre",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : AN compte rendu DPG 30/01/2024 + presse + site officiel. URL",
+    "url": "https://gabrielattal.fr/",
+    "organisation": "autre",
+    "type": "presse",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : Horizons site + presse Reims 10/05/2026. URL",
+    "url": "https://horizonsleparti.fr/",
+    "organisation": "autre",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : Europe 1 1er mai 2025 + Politis octobre 2025 + Public Sénat. URLs",
+    "url": "https://www.europe1.fr/politique/1er-mai-sous-tension-jean-luc-melenchon-embrase-la-manifestation",
+    "organisation": "autre",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "3 mesures HowTheyVote: (1) 24 112 votes nominaux = 89,8% (2) 281 jours session, présent au moins 1 vote = 84,3% (3) Quand sur place ce jour-là, vote sur 97,5% des scrutins. Source: calcul Cowork sur d",
+    "url": "https://www.nosdeputes.fr/",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : Datan.fr",
+    "url": "https://datan.fr/deputes/seine-maritime-76/depute_edouard-philippe",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : NosSénateurs archive",
+    "url": "https://archive.nossenateurs.fr/bruno-retailleau",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : NosDéputés",
+    "url": "https://2017-2022.nosdeputes.fr/jean-luc-melenchon",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : France 24 29/05/2024 ; études Yahoo Actu. URL",
+    "url": "https://www.france24.com/fr/europe/20240529-jordan-bardella-et-le-rn-au-parlement-europeen",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : NosDéputés 2012-2017",
+    "url": "https://2012-2017.nosdeputes.fr/edouard-philippe",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : NosDéputés 2017-2022",
+    "url": "https://2017-2022.nosdeputes.fr/gabriel-attal",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : Parlement européen - profil MEP 131580. URL",
+    "url": "https://www.europarl.europa.eu/meps/fr/131580/JORDAN_BARDELLA/main-activities/plenary-speeches",
+    "organisation": "NosDeputes",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : France 24 + profil PE. URL",
+    "url": "https://www.europarl.europa.eu/meps/fr/131580",
+    "organisation": "Senat",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : NosDéputés 2012-2017",
+    "url": "https://www.senat.fr/",
+    "organisation": "Senat",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source: HowTheyVote.eu - calcul majorité du groupe sur chaque vote où Bardella a participé",
+    "url": "https://www.datan.fr/",
+    "organisation": "Datan",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source: Libération (Chez Pol) du 11/05/2026 citant La Lettre. Périmètre: depuis juillet 2024 (Bardella président groupe PfE). La Conférence des présidents est l'instance où les présidents de groupe or",
+    "url": "https://www.liberation.fr/",
+    "organisation": "presse",
+    "type": "agregateur",
+    "fiabilite": "moyenne"
+  },
+  {
+    "label": "Source : HATVP. URL",
+    "url": "https://www.hatvp.fr/",
+    "organisation": "HATVP",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : HATVP fiche Philippe + L'Essentiel de l'Eco synthèse. URL",
+    "url": "https://www.hatvp.fr/pages_nominatives/philippe-edouard.html",
+    "organisation": "HATVP",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : HATVP fiche Retailleau + synthèse presse Selexium. URL",
+    "url": "https://www.hatvp.fr/pages_nominatives/retailleau-bruno.html",
+    "organisation": "HATVP",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "NON TROUVE - voie de recours : PDF HATVP brut",
+    "url": "https://www.hatvp.fr/fiche-nominative/?declarant=melenchon-jean-luc",
+    "organisation": "HATVP",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : HATVP communiqué Attal. URL",
+    "url": "https://www.hatvp.fr/presse/publication-des-declarations-de-fin-de-mandat-des-anciens-membres-du-gouvernement-de-m-gabriel-attal/",
+    "organisation": "HATVP",
+    "type": "declaration",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "CNCCFP — décision officielle",
+    "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047062424",
+    "organisation": "CNCCFP",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "CNCCFP — décision officielle",
+    "url": "https://cnccfp.fr/wp-content/uploads/2025/03/cnccfp-decisions_europeennes_2024.pdf",
+    "organisation": "CNCCFP",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "CNCCFP — Avis publication générale des comptes des partis 2024",
+    "url": "https://cnccfp.fr/wp-content/uploads/2026/02/CNCCFP_DP_Avis_2024.pdf",
+    "organisation": "CNCCFP",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : Sénat scrutin public 11/03/2023. A vérifier vote nominal sur",
+    "url": "https://www.senat.fr/scrutin-public/",
+    "organisation": "autre",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : AN scrutin n°2107 du 27/05/2025 + Franceinfo carte députés. URL",
+    "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/2107",
+    "organisation": "autre",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID",
+    "url": "https://howtheyvote.eu/",
+    "organisation": "HowTheyVote",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Source : LCP + Public Sénat 04/12/2024. URL",
+    "url": "https://lcp.fr/actualites/le-gouvernement-de-michel-barnier-censure-au-terme-d-une-journee-historique-a-l",
+    "organisation": "autre",
+    "type": "decision_officielle",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "HowTheyVote.eu — Bardella MEP 131580",
+    "url": "https://howtheyvote.eu/members/131580",
+    "organisation": "HowTheyVote",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "HowTheyVote.eu — dataset complet 2019-2026",
+    "url": "https://howtheyvote.eu/members/131580",
+    "organisation": "HowTheyVote",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2021",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2022",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2023",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2024",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2025",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  },
+  {
+    "label": "Sénat — Table nominative Retailleau 2026",
+    "url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+    "organisation": "Senat",
+    "type": "donnees_brutes",
+    "fiabilite": "haute"
+  }
+]

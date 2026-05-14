@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Observations Présidentielles 2027 — Observatoire citoyen non partisan</title>
+  <meta name="description" content="Comprenez les 5 candidats pressentis à l'élection présidentielle française de 2027 sur les grands sujets de politique publique. Analyse factuelle et sourcée.">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body data-page="index">
+  <a class="skip-link" href="#main">Aller au contenu principal</a>
+
+  <header class="site-header">
+    <div class="container">
+      <div class="site-header__inner">
+        <a href="index.html" class="site-title">Observations&nbsp;Présidentielles&nbsp;2027</a>
+        <p class="site-subtitle">Observatoire citoyen non partisan</p>
+      </div>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="index.html" aria-current="page">Accueil</a>
+        <a href="comparer.html">Comparer</a>
+        <a href="glossaire.html">Glossaire</a>
+        <a href="methodologie.html">Méthodologie</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="container">
+
+    <section class="hero">
+      <h1>Comprenez les 5 candidats à la présidentielle 2027 en 10 minutes</h1>
+      <p class="baseline">Une analyse <strong>factuelle, sourcée et neutre</strong> de leurs positions, votes, patrimoine et financement. Pas d'éditorial, pas de jugement de valeur — uniquement les données publiques officielles.</p>
+      <p class="disclaimer">
+        Données arrêtées au <strong>12 mai 2026</strong>. Chaque chiffre est sourcé&nbsp;: cliquez sur l'icône à côté d'une donnée pour ouvrir sa source. Présomption d'innocence stricte respectée dans toutes les rubriques judiciaires.
+      </p>
+    </section>
+
+    <section class="section-block" aria-labelledby="sujets-heading">
+      <h2 id="sujets-heading">Comparer sur un sujet</h2>
+      <p class="lead">L'entrée principale du site. Choisissez un sujet de politique publique : vous verrez côte à côte ce que disent et ce qu'ont voté les 5 candidats, avec les sources cliquables.</p>
+      <div id="sujets-politiques" class="sujets-grid" aria-busy="true"></div>
+    </section>
+
+    <section class="section-block" aria-labelledby="candidats-heading">
+      <h2 id="candidats-heading">Les 5 candidats</h2>
+      <p class="lead">Cliquez sur une carte pour ouvrir la fiche complète : parcours, positions par sujet, patrimoine, justice, financement.</p>
+      <div id="candidats-cards" class="cards-grid" aria-busy="true"></div>
+    </section>
+
+    <section class="section section--alt" aria-labelledby="transparence-heading">
+      <div class="container">
+        <h2 id="transparence-heading">Transparence et probité</h2>
+        <p class="lead">Trois angles pour analyser les candidats au-delà de leurs discours&nbsp;: leur patrimoine, leurs éventuelles affaires judiciaires, et l'argent de leur parti.</p>
+        <div id="transparence-cards" class="ministats-grid"></div>
+      </div>
+    </section>
+
+    <section class="section-block">
+      <h2>Comment ce site fonctionne</h2>
+      <div class="cards-grid">
+        <article class="card-candidat" style="align-items: flex-start; text-align: left;">
+          <h3 style="font-size: 1.05rem;">Sources publiques</h3>
+          <p style="font-size: 0.9rem; color: var(--c-text-soft);">Chaque donnée provient d'une source primaire&nbsp;: HATVP, CNCCFP, scrutins officiels, profils MEP. <a href="methodologie.html#sources">Liste des 9 sources principales</a>.</p>
+        </article>
+        <article class="card-candidat" style="align-items: flex-start; text-align: left;">
+          <h3 style="font-size: 1.05rem;">Neutralité absolue</h3>
+          <p style="font-size: 0.9rem; color: var(--c-text-soft);">Aucun qualificatif politique subjectif. Pas de couleurs partisanes. Chaque candidat traité visuellement à l'identique. <a href="methodologie.html#regles">Règles éditoriales</a>.</p>
+        </article>
+        <article class="card-candidat" style="align-items: flex-start; text-align: left;">
+          <h3 style="font-size: 1.05rem;">Glossaire</h3>
+          <p style="font-size: 0.9rem; color: var(--c-text-soft);">Tous les termes techniques (témoin assisté, CJR, réformation CNCCFP, AI Act, etc.) ont une définition courte au survol et une page dédiée. <a href="glossaire.html">Ouvrir le glossaire</a>.</p>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><a href="methodologie.html">Méthodologie</a> · <a href="methodologie.html#sources">Sources</a> · <a href="glossaire.html">Glossaire</a> · <a href="methodologie.html#mentions">Mentions légales</a></p>
+      <p>Données issues de&nbsp;: HATVP, CNCCFP, Assemblée nationale, Sénat, Parlement européen, NosDéputés.fr, NosSénateurs.fr, Datan.fr, HowTheyVote.eu. Données extraites le 12 mai 2026.</p>
+      <p>Code source ouvert. Licence des données&nbsp;: CC&nbsp;BY 4.0. Observatoire non partisan, non rattaché à aucun parti.</p>
+    </div>
+  </footer>
+
+  <script src="assets/script.js" defer></script>
+</body>
+</html>
