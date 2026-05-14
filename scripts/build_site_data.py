@@ -400,8 +400,23 @@ def main():
     print(f'  data/votes-cles.json OK ({len(votes_cles)} textes)')
 
     # ----- votes-bruts.json (drill-down) -----
+    # Charge le statut is_main des votes PE depuis le dataset HowTheyVote
+    # (uniquement les votes principaux, pas les amendements intermédiaires)
+    import csv as _csv
+    HTV_VOTES_CSV = ROOT.parent / 'Howtheyvote' / 'export' / 'votes.csv'
+    htv_is_main = {}
+    if HTV_VOTES_CSV.exists():
+        with HTV_VOTES_CSV.open(encoding='utf-8', newline='') as f:
+            for r in _csv.DictReader(f):
+                try:
+                    htv_is_main[int(r['id'])] = (r.get('is_main') == 'True')
+                except (ValueError, KeyError):
+                    pass
+        print(f'  HowTheyVote loaded : {sum(htv_is_main.values())} votes principaux (sur {len(htv_is_main)})')
+
     # Pour chaque candidat, pour chaque sujet, liste les votes bruts (texte + position + date + source)
     bruts_by_candidat = defaultdict(lambda: defaultdict(list))
+    n_skipped_amendments = 0
     for v in votes_bruts:
         slug = CANDIDAT_SLUGS_BY_ID.get(v['candidat_id'])
         if not slug:
@@ -409,6 +424,16 @@ def main():
         t = textes_by_id.get(v['texte_vote_id'])
         if not t:
             continue
+        # Filtrer les votes PE non principaux (amendements/intermédiaires)
+        ref = str(t.get('ref_officielle') or '')
+        if ref.startswith('HTV:'):
+            try:
+                vid = int(ref.split(':')[1])
+                if not htv_is_main.get(vid, True):  # défaut True = on garde si inconnu
+                    n_skipped_amendments += 1
+                    continue
+            except (ValueError, IndexError):
+                pass
         sujet = sujets_by_id.get(t.get('sujet_principal_id'))
         sujet_slug = sujet['slug'] if sujet else 'autre'
         bruts_by_candidat[slug][sujet_slug].append({
@@ -428,7 +453,7 @@ def main():
         encoding='utf-8'
     )
     total_bruts = sum(sum(len(v) for v in d.values()) for d in bruts_by_candidat.values())
-    print(f'  data/votes-bruts.json OK ({total_bruts} votes bruts au total)')
+    print(f'  data/votes-bruts.json OK ({total_bruts} votes bruts au total, {n_skipped_amendments} amendements PE filtrés)')
 
     # ----- financement.json -----
     financement_json = {
