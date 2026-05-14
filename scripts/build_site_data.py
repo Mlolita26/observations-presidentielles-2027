@@ -399,61 +399,10 @@ def main():
     )
     print(f'  data/votes-cles.json OK ({len(votes_cles)} textes)')
 
-    # ----- votes-bruts.json (drill-down) -----
-    # Charge le statut is_main des votes PE depuis le dataset HowTheyVote
-    # (uniquement les votes principaux, pas les amendements intermédiaires)
-    import csv as _csv
-    HTV_VOTES_CSV = ROOT.parent / 'Howtheyvote' / 'export' / 'votes.csv'
-    htv_is_main = {}
-    if HTV_VOTES_CSV.exists():
-        with HTV_VOTES_CSV.open(encoding='utf-8', newline='') as f:
-            for r in _csv.DictReader(f):
-                try:
-                    htv_is_main[int(r['id'])] = (r.get('is_main') == 'True')
-                except (ValueError, KeyError):
-                    pass
-        print(f'  HowTheyVote loaded : {sum(htv_is_main.values())} votes principaux (sur {len(htv_is_main)})')
-
-    # Pour chaque candidat, pour chaque sujet, liste les votes bruts (texte + position + date + source)
-    bruts_by_candidat = defaultdict(lambda: defaultdict(list))
-    n_skipped_amendments = 0
-    for v in votes_bruts:
-        slug = CANDIDAT_SLUGS_BY_ID.get(v['candidat_id'])
-        if not slug:
-            continue
-        t = textes_by_id.get(v['texte_vote_id'])
-        if not t:
-            continue
-        # Filtrer les votes PE non principaux (amendements/intermédiaires)
-        ref = str(t.get('ref_officielle') or '')
-        if ref.startswith('HTV:'):
-            try:
-                vid = int(ref.split(':')[1])
-                if not htv_is_main.get(vid, True):  # défaut True = on garde si inconnu
-                    n_skipped_amendments += 1
-                    continue
-            except (ValueError, IndexError):
-                pass
-        sujet = sujets_by_id.get(t.get('sujet_principal_id'))
-        sujet_slug = sujet['slug'] if sujet else 'autre'
-        bruts_by_candidat[slug][sujet_slug].append({
-            'texte': t['titre_long'] or t['titre_court'],
-            'annee': t.get('annee'),
-            'date': v.get('date_vote') or t.get('date_vote'),
-            'chambre': t.get('chambre'),
-            'ref': t.get('ref_officielle'),
-            'position': v['position'],
-        })
-    # Tri par date desc dans chaque liste
-    for slug, by_sujet in bruts_by_candidat.items():
-        for sujet_slug in by_sujet:
-            by_sujet[sujet_slug].sort(key=lambda x: str(x.get('date') or ''), reverse=True)
-    (SITE_DATA / 'votes-bruts.json').write_text(
-        json.dumps(bruts_by_candidat, ensure_ascii=False, indent=2, default=str),
-        encoding='utf-8'
-    )
-    total_bruts = sum(sum(len(v) for v in d.values()) for d in bruts_by_candidat.values())
-    print(f'  data/votes-bruts.json OK ({total_bruts} votes bruts au total, {n_skipped_amendments} amendements PE filtrés)')
+    # Note : la génération de votes-bruts.json (drill-down) a été retirée.
+    # Le drill-down sur 2 000+ votes n'apportait pas de valeur exploitable
+    # pour le grand public. Seuls les ~45 votes-clés emblématiques sont
+    # conservés (déjà dans votes-cles.json).
 
     # ----- financement.json -----
     financement_json = {

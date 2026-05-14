@@ -1181,60 +1181,6 @@ a.source-link svg { width: 12px; height: 12px; }
   margin: 0.5rem 0;
 }
 
-/* Drill-down votes (sujet.html) */
-details.drill-down-block {
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius);
-  background: var(--c-bg-alt);
-  margin: 0.75rem 0;
-}
-details.drill-down-block > summary {
-  cursor: pointer;
-  padding: 0.75rem 1rem;
-  font-weight: 500;
-  font-size: 0.95rem;
-  color: var(--c-accent);
-  list-style: none;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-}
-details.drill-down-block > summary::-webkit-details-marker { display: none; }
-details.drill-down-block > summary::before {
-  content: "▶";
-  color: var(--c-gold);
-  font-size: 0.7em;
-  transition: transform 0.2s;
-}
-details.drill-down-block[open] > summary::before { transform: rotate(90deg); }
-details.drill-down-block > div {
-  padding: 0.5rem 1rem 1rem;
-  border-top: 1px solid var(--c-border);
-}
-.drill-down-candidat {
-  margin: 1rem 0;
-}
-.drill-down-candidat h4 {
-  margin: 0 0 0.5rem;
-  font-size: 1rem;
-  color: var(--c-accent);
-  text-transform: capitalize;
-}
-.drill-down-table-wrap {
-  max-height: 400px;
-  overflow-y: auto;
-  border: 1px solid var(--c-border);
-  border-radius: var(--radius);
-  background: #fff;
-}
-.drill-down-table-wrap table { margin: 0; }
-.drill-down-table-wrap thead th {
-  position: sticky;
-  top: 0;
-  background: var(--c-bg-alt);
-  z-index: 1;
-}
-
 /* Responsive */
 @media (max-width: 800px) {
   h1 { font-size: 1.7rem; }

@@ -378,9 +378,6 @@
         dom.otherSujetsElement.innerHTML = others.map(renderSujetCard).join('');
       }
 
-      // Initialiser le drill-down (chargement lazy sur ouverture du <details>)
-      initDrillDown(container);
-
       initTooltips();
     } catch (err) {
       showError(container, `Impossible de charger le sujet : ${err.message}`);
@@ -458,20 +455,6 @@
       </section>`;
     }
 
-    // Bloc 2bis : drill-down votes (universel, depuis votes-bruts.json)
-    // Placeholder rendu — chargement à la demande via fetch
-    const drillDownId = `drilldown-${sujet.id}-${Math.random().toString(36).slice(2, 8)}`;
-    const bardellaPeBloc = `<section class="section-block">
-      <h2>Détail des votes bruts par candidat</h2>
-      <p class="lead">Tous les votes nominaux disponibles pour chaque candidat sur ce sujet, depuis les datasets HowTheyVote.eu (Parlement européen) et scrutins AN/Sénat. <strong>Volumes attendus</strong>&nbsp;: jusqu'à plusieurs milliers pour Bardella au PE, ~20 textes-clés pour les candidats français.</p>
-      <details class="drill-down-block">
-        <summary>Voir le détail des votes bruts pour ${escapeHtml(sujet.titre.toLowerCase())} (chargement à la demande)</summary>
-        <div id="${drillDownId}" data-drill-sujet="${escapeHtml(sujet.id)}" data-drill-slugs="${escapeHtml(slugs.join(','))}">
-          <p class="message">Chargement…</p>
-        </div>
-      </details>
-    </section>`;
-
     // Bloc 3 : Cohérence discours / actes
     let dvaBloc = '';
     if (sujet.discours_themes && sujet.discours_themes.length) {
@@ -503,7 +486,7 @@
       }
     }
 
-    return positions + votesBloc + bardellaPeBloc + dvaBloc;
+    return positions + votesBloc + dvaBloc;
   }
 
   function renderSujetPatrimoine(candidats, slugs) {
@@ -1127,64 +1110,6 @@
       .replaceAll(/[àâä]/g, 'a').replaceAll(/[éèêë]/g, 'e').replaceAll(/[îï]/g, 'i')
       .replaceAll(/[ôö]/g, 'o').replaceAll(/[ûüù]/g, 'u').replaceAll('ç', 'c')
       .replaceAll(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
-  }
-
-  // ========================================================================
-  // Drill-down votes (lazy load depuis votes-bruts.json)
-  // ========================================================================
-
-  function initDrillDown(rootEl) {
-    rootEl.querySelectorAll('details.drill-down-block').forEach(details => {
-      details.addEventListener('toggle', async (ev) => {
-        if (!details.open) return;
-        const targetEl = details.querySelector('[data-drill-sujet]');
-        if (!targetEl || targetEl.dataset.loaded === '1') return;
-        targetEl.dataset.loaded = '1';
-        const sujetId = targetEl.dataset.drillSujet;
-        const slugs = (targetEl.dataset.drillSlugs || '').split(',').filter(Boolean);
-        try {
-          const data = await loadJSON('data/votes-bruts.json');
-          targetEl.innerHTML = renderDrillDownTable(data, sujetId, slugs);
-          initTooltips(targetEl);
-        } catch (err) {
-          targetEl.innerHTML = `<p class="message message--error">Impossible de charger les votes bruts : ${escapeHtml(err.message)}</p>`;
-        }
-      });
-    });
-  }
-
-  function renderDrillDownTable(votesBrutsAll, sujetId, slugs) {
-    const candidats = slugs.length ? slugs : CANDIDATS_ORDER;
-    let html = '';
-    let total = 0;
-    for (const slug of candidats) {
-      const byCand = votesBrutsAll[slug] || {};
-      const votes = byCand[sujetId] || [];
-      total += votes.length;
-      if (!votes.length) {
-        html += `<div class="drill-down-candidat">
-          <h4>${escapeHtml(slug)}</h4>
-          <p class="affaires-empty">Aucun vote sur ce sujet (sans mandat / texte non emblématique).</p>
-        </div>`;
-        continue;
-      }
-      // On affiche jusqu'à 200 votes max (scroll), le reste reste accessible via fichier source
-      const shown = votes.slice(0, 200);
-      const rows = shown.map(v => `<tr>
-        <td class="numeric">${escapeHtml((v.date || String(v.annee || '')).slice(0, 10))}</td>
-        <td>${richText(v.texte || '')}</td>
-        <td class="mono" style="font-size:0.78rem;">${escapeHtml(v.chambre || '')}</td>
-        <td>${votePastille(v.position)}</td>
-      </tr>`).join('');
-      html += `<div class="drill-down-candidat">
-        <h4>${escapeHtml(slug)} — ${votes.length} vote${votes.length > 1 ? 's' : ''}${votes.length > 200 ? ' (200 plus récents affichés)' : ''}</h4>
-        <div class="drill-down-table-wrap"><table class="data-table">
-          <thead><tr><th>Date</th><th>Texte</th><th>Chambre</th><th>Position</th></tr></thead>
-          <tbody>${rows}</tbody>
-        </table></div>
-      </div>`;
-    }
-    return `<p style="font-size:0.9rem; color:var(--c-text-soft); margin: 0.5rem 0 1rem;">${total} vote${total > 1 ? 's' : ''} brut${total > 1 ? 's' : ''} au total (toutes chambres confondues).</p>${html}`;
   }
 
   // ========================================================================
