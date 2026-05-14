@@ -267,7 +267,7 @@
       };
       tCards.innerHTML = transverses.map(s => {
         const st = stats[s.id] || { big: '?', desc: s.teasing };
-        return `<a class="ministat-card" href="sujet.html?id=${escapeHtml(s.id)}">
+        return `<a class="ministat-card" href="sujet-${escapeHtml(s.id)}.html">
           <span class="ms-big">${escapeHtml(st.big)}</span>
           <span class="ms-title">${escapeHtml(s.titre)}</span>
           <span class="ms-desc">${escapeHtml(st.desc)}</span>
@@ -284,7 +284,7 @@
 
   function renderSujetCard(sujet) {
     const cls = sujet.type === 'transverse' ? 'sujet-card sujet-card--transverse' : 'sujet-card';
-    return `<a class="${cls}" href="sujet.html?id=${escapeHtml(sujet.id)}">
+    return `<a class="${cls}" href="sujet-${escapeHtml(sujet.id)}.html">
       <span class="sc-icon" aria-hidden="true">${escapeHtml(sujet.icon_letter || sujet.titre[0])}</span>
       <span class="sc-content">
         <span class="sc-title">${escapeHtml(sujet.titre)}</span>
@@ -306,7 +306,7 @@
       <dl class="indicateurs">
         <div><dt>Candidature 2027&nbsp;:</dt><dd>${escapeHtml(candStatus)}</dd></div>
       </dl>
-      <a class="btn" href="candidat.html?nom=${escapeHtml(c.slug)}">Voir la fiche</a>
+      <a class="btn" href="candidat-${escapeHtml(c.slug)}.html">Voir la fiche</a>
     </article>`;
   }
 
@@ -414,7 +414,7 @@
         </div>
         <div class="pc-position${valueCls}">${richText(text)}</div>
         <div class="pc-source">${sourceLink(positionUrl, positionPayload && positionPayload.source_label)}</div>
-        <a class="pc-link" href="candidat.html?nom=${escapeHtml(slug)}#positions">Voir sa fiche →</a>
+        <a class="pc-link" href="candidat-${escapeHtml(slug)}.html#positions">Voir sa fiche →</a>
       </article>`;
     }
     positions += `</div></section>`;
@@ -817,7 +817,7 @@
           <span class="cpc-section-label">Ce qu'il a voté</span>
           <div class="cpc-section-content">${votesHtml}</div>
         </div>
-        <a class="cpc-link" href="sujet.html?id=${escapeHtml(sujet.id)}">Comparer aux autres sur ce sujet →</a>
+        <a class="cpc-link" href="sujet-${escapeHtml(sujet.id)}.html">Comparer aux autres sur ce sujet →</a>
       </article>`;
     }).join('');
 

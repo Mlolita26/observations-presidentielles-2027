@@ -1478,5 +1478,35 @@
         "detail": null
       }
     }
+  },
+  {
+    "theme": "Climat",
+    "texte": "Carbon Border Adjustment Mechanism — vote initial",
+    "annee": 2023,
+    "source_label": "HowTheyVote.eu",
+    "positions": {
+      "bardella": {
+        "position": "ABSTENTION",
+        "detail": "Vote 18/04/2023 sur le mécanisme initial CBAM",
+        "source_url": "https://howtheyvote.eu/votes/154165",
+        "source_label": "HowTheyVote.eu vote 154165"
+      },
+      "philippe": {
+        "position": "N/A",
+        "detail": null
+      },
+      "retailleau": {
+        "position": "N/A",
+        "detail": null
+      },
+      "melenchon": {
+        "position": "N/A",
+        "detail": null
+      },
+      "attal": {
+        "position": "N/A",
+        "detail": null
+      }
+    }
   }
 ]

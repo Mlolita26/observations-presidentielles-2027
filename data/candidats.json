@@ -8,26 +8,27 @@
     "bardella": {
       "slug": "bardella",
       "nom": "Jordan Bardella",
-      "parti": "Rassemblement National",
+      "parti": "Rassemblement national",
       "initiales": "JB",
       "identite": {
         "date_naissance": {
           "value": "1995-09-13",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia"
+          "source_url": "https://fr.wikipedia.org/wiki/Jordan_Bardella",
+          "source_label": "Wikipédia — Jordan Bardella"
         },
         "lieu_naissance": {
           "value": "Drancy (Seine-Saint-Denis)",
-          "source_url": "https://fr.wikipedia.org/"
+          "source_url": "https://fr.wikipedia.org/wiki/Jordan_Bardella",
+          "source_label": "Wikipédia — Jordan Bardella"
         },
         "formation": {
           "value": "Études de géographie (Sorbonne, non diplômé)"
         },
         "profession_origine": {
-          "value": "Permanent politique (RN dès 16 ans)"
+          "value": "Permanent du Rassemblement national (adhésion 2012)"
         },
         "parti": {
-          "value": "Rassemblement National"
+          "value": "Rassemblement national"
         },
         "mandat_principal": {
           "value": "Député européen (depuis 2019)",
@@ -36,13 +37,13 @@
         },
         "premiere_election": {
           "value": "Conseiller régional IDF (2015)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Jordan_Bardella",
+          "source_label": "Wikipédia — Jordan Bardella"
         },
         "presidence_parti": {
           "value": "Président du RN depuis nov. 2022",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Jordan_Bardella",
+          "source_label": "Wikipédia — Jordan Bardella"
         },
         "candidature_2027": {
           "value": "Pressenti / non officiellement déclaré",
@@ -115,7 +116,7 @@
           "source_label": null
         },
         "climat": {
-          "value": "Climato-prudent. Au PE : CONTRE Loi climat européenne (2020+2025), CONTRE Nature Restoration (2023+2024), CONTRE Pesticides (2023), mais POUR CBAM (2025). Pro-nucléaire.",
+          "value": "A voté contre la majorité des grands textes climat européens 2020-2025 (Loi européenne climat 2020 et 2025, Nature Restoration 2023+2024, Pesticides 2023, Renewable Energy Directive 2023). Sur le CBAM (taxe carbone aux frontières) : abstention sur le vote initial du 18/04/2023, POUR sur la révision du 10/09/2025 (simplification et renforcement). Programme RN : pro-nucléaire, opposition au Pacte vert européen.",
           "source_url": null,
           "source_label": null
         },
@@ -135,7 +136,7 @@
           "source_label": null
         },
         "ukraine": {
-          "value": "Au PE : ABSTENTION puis CONTRE Ukraine Facility (2024 + 2026). POUR résolution sur civils détenus (2025). Soutien tardif, refus de certaines livraisons (programme RN).",
+          "value": "Au PE : ABSTENTION puis CONTRE Ukraine Facility (2024 + 2026). POUR résolution sur civils détenus (2025). Programme RN 2024 : soutien financier oui, refus des livraisons d'armes longue portée.",
           "source_url": null,
           "source_label": null
         },
@@ -148,6 +149,11 @@
           "value": "Meetings RN multiples (mai 2024 européennes, février-mars 2025 RN). Pas de manifestation type 'cortège' avec slogans (positionnement institutionnel).",
           "source_url": null,
           "source_label": null
+        },
+        "societe": {
+          "value": "Position RN sur IVG : favorable au droit à l'IVG mais opposé à sa constitutionnalisation (abstention du groupe RN au Congrès du 4 mars 2024). Position sur fin de vie : prudente, le programme RN 2024 ne soutient pas l'aide à mourir.",
+          "source_url": "https://www.publicsenat.fr/",
+          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 ; programme RN 2024"
         }
       },
       "financement": {
@@ -457,12 +463,13 @@
       "identite": {
         "date_naissance": {
           "value": "1970-11-28",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia"
+          "source_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe",
+          "source_label": "Wikipédia — Édouard Philippe"
         },
         "lieu_naissance": {
           "value": "Rouen (Seine-Maritime)",
-          "source_url": "https://fr.wikipedia.org/"
+          "source_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe",
+          "source_label": "Wikipédia — Édouard Philippe"
         },
         "formation": {
           "value": "Sciences Po Paris, ENA (1997)"
@@ -480,8 +487,8 @@
         },
         "premiere_election": {
           "value": "Député de Seine-Maritime (2002)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe",
+          "source_label": "Wikipédia — Édouard Philippe"
         },
         "fonctions_gouvernementales": {
           "value": "Premier ministre (2017-2020)",
@@ -490,8 +497,8 @@
         },
         "presidence_parti": {
           "value": "Président d'Horizons depuis oct. 2021",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe",
+          "source_label": "Wikipédia — Édouard Philippe"
         },
         "candidature_2027": {
           "value": "Pressenti / non officiellement déclaré",
@@ -597,6 +604,11 @@
           "value": "Pas de manifestation type cortège. Meetings Horizons : Angers 09/10/2021 (création parti), Reims 10/05/2026, Adidas Arena Paris prévu 05/07/2026. 1 000 réunions d'appartement annoncées 25/06/2026.",
           "source_url": "https://horizonsleparti.fr/",
           "source_label": "Source : Horizons site + presse Reims 10/05/2026. URL"
+        },
+        "societe": {
+          "value": "Soutien à la constitutionnalisation de l'IVG. Soutien public au projet de loi sur la fin de vie (Horizons aligné sur la majorité présidentielle 2024 portant le texte).",
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Horizons — programme et déclarations publiques"
         }
       },
       "financement": {},
@@ -621,12 +633,13 @@
       "identite": {
         "date_naissance": {
           "value": "1960-12-23",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia"
+          "source_url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+          "source_label": "Wikipédia — Bruno Retailleau"
         },
         "lieu_naissance": {
           "value": "Cholet (Maine-et-Loire)",
-          "source_url": "https://fr.wikipedia.org/"
+          "source_url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+          "source_label": "Wikipédia — Bruno Retailleau"
         },
         "formation": {
           "value": "Droit (Nantes), Sciences Po Paris"
@@ -644,8 +657,8 @@
         },
         "premiere_election": {
           "value": "Conseiller régional Pays de la Loire (1998)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+          "source_label": "Wikipédia — Bruno Retailleau"
         },
         "fonctions_gouvernementales": {
           "value": "Ministre de l'Intérieur (sept. 2024-)",
@@ -654,8 +667,8 @@
         },
         "presidence_parti": {
           "value": "Président de LR depuis mai 2025",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau",
+          "source_label": "Wikipédia — Bruno Retailleau"
         },
         "candidature_2027": {
           "value": "Pressenti / non officiellement déclaré",
@@ -761,6 +774,11 @@
           "value": "Pas de manifestation type cortège (positionnement institutionnel sénateur puis ministre). Meetings de campagne LR à venir.",
           "source_url": null,
           "source_label": null
+        },
+        "societe": {
+          "value": "CONTRE la constitutionnalisation de l'IVG (rare sénateur LR à avoir voté contre au Congrès du 4 mars 2024). Position publique CONTRE l'aide à mourir, constante (interventions Sénat et tribunes Le Figaro 2024-2025).",
+          "source_url": "https://www.publicsenat.fr/",
+          "source_label": "Public Sénat — Congrès Versailles 04/03/2024 + tribunes Le Figaro"
         }
       },
       "financement": {},
@@ -771,17 +789,18 @@
     "melenchon": {
       "slug": "melenchon",
       "nom": "Jean-Luc Mélenchon",
-      "parti": "La France Insoumise",
+      "parti": "La France insoumise",
       "initiales": "JLM",
       "identite": {
         "date_naissance": {
           "value": "1951-08-19",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia"
+          "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+          "source_label": "Wikipédia — Jean-Luc Mélenchon"
         },
         "lieu_naissance": {
           "value": "Tanger (Maroc)",
-          "source_url": "https://fr.wikipedia.org/"
+          "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+          "source_label": "Wikipédia — Jean-Luc Mélenchon"
         },
         "formation": {
           "value": "Lettres modernes (Besançon)"
@@ -790,7 +809,7 @@
           "value": "Professeur de français, journaliste"
         },
         "parti": {
-          "value": "La France Insoumise"
+          "value": "La France insoumise"
         },
         "mandat_principal": {
           "value": "Aucun mandat électif depuis 2022",
@@ -799,8 +818,8 @@
         },
         "premiere_election": {
           "value": "Sénateur de l'Essonne (1986)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+          "source_label": "Wikipédia — Jean-Luc Mélenchon"
         },
         "fonctions_gouvernementales": {
           "value": "Ministre délégué (1981-1983, gouv. Mauroy)",
@@ -808,9 +827,9 @@
           "source_label": null
         },
         "presidence_parti": {
-          "value": "Aucune (figure tutélaire LFI)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "value": "Aucune fonction officielle. Fondateur du Parti de gauche (2008), co-fondateur de La France insoumise (2016)",
+          "source_url": "https://fr.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon",
+          "source_label": "Wikipédia — Jean-Luc Mélenchon"
         },
         "candidature_2027": {
           "value": "Fondateur LFI, sans mandat électif depuis 22/06/2022, candidat à la présidentielle 2027 depuis 03/05/2026",
@@ -903,7 +922,7 @@
           "source_label": null
         },
         "ukraine": {
-          "value": "Critique OTAN, position pacifiste contestée",
+          "value": "Critique de l'OTAN, refus des sanctions économiques (programme LFI 2022). Soutien à l'Ukraine en tant que peuple agressé mais refus de l'envoi d'armes.",
           "source_url": null,
           "source_label": null
         },
@@ -913,9 +932,14 @@
           "source_label": "Source : melenchon.fr + Politis 11/2025 + bibliographie. URL"
         },
         "manifestations": {
-          "value": "Nombreuses : 1er mai 2025 Paris (avec drapeaux palestiniens et soutien Gaza) ; mobilisation jeunesse septembre 2024 ; manifestation 2 octobre 2025 (urgence sociale) ; manifestations retraites 31/01/2023 ; manifestations climat. Allocutions sur tribune systématiques.",
+          "value": "Nombreuses : 1er mai 2025 Paris (manifestation syndicale) ; mobilisation jeunesse septembre 2024 ; manifestation 2 octobre 2025 (urgence sociale) ; manifestations retraites 31/01/2023 ; manifestations climat. Allocutions sur tribune systématiques.",
           "source_url": "https://www.europe1.fr/politique/1er-mai-sous-tension-jean-luc-melenchon-embrase-la-manifestation",
           "source_label": "Source : Europe 1 1er mai 2025 + Politis octobre 2025 + Public Sénat. URLs"
+        },
+        "societe": {
+          "value": "Soutien fort au droit à l'IVG et à sa constitutionnalisation. Programme LFI 2022 inclut l'extension du délai légal d'IVG et un assouplissement de la loi sur la fin de vie.",
+          "source_url": "https://melenchon.fr/",
+          "source_label": "melenchon.fr et programme « L'Avenir en commun » LFI 2022"
         }
       },
       "financement": {
@@ -932,9 +956,9 @@
       "affaires": [
         {
           "intitule": "Perquisition LFI 2018 — violence sur agents",
-          "nature": "Condamnation",
-          "statut_juridique": "Condamnation 1ère instance Bobigny le 09/12/2019 : 3 mois sursis + 8 000 EUR amende pour rébellion, provocation directe a la rébellion, intimidation envers magistrats. Mélenchon a renoncé a l'appel. Statut definitif a vérifier via Légifrance.",
-          "annee": "2018-2019",
+          "nature": "Condamnation définitive",
+          "statut_juridique": "Condamné le 09/12/2019 par le tribunal correctionnel de Bobigny à 3 mois d'emprisonnement avec sursis + 8 000 € d'amende pour rébellion, provocation à la rébellion et injure envers magistrats. Mélenchon a renoncé à l'appel : la condamnation est devenue définitive à l'expiration du délai d'appel (fin décembre 2019). La peine complémentaire d'inéligibilité n'a pas été prononcée.",
+          "annee": "Faits 2018, condamnation 2019, définitive fin 2019",
           "source_url": "https://www.france24.com/fr/20191209-france-melenchon-condamne-trois-mois-prison-sursis-perquisition-lfi",
           "source_label": "Source : France 24 09/12/2019 + Dalloz Actualité. URL"
         },
@@ -957,12 +981,13 @@
       "identite": {
         "date_naissance": {
           "value": "1989-03-16",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia"
+          "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+          "source_label": "Wikipédia — Gabriel Attal"
         },
         "lieu_naissance": {
           "value": "Clamart (Hauts-de-Seine)",
-          "source_url": "https://fr.wikipedia.org/"
+          "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+          "source_label": "Wikipédia — Gabriel Attal"
         },
         "formation": {
           "value": "Sciences Po Paris, Master droit public"
@@ -980,8 +1005,8 @@
         },
         "premiere_election": {
           "value": "Député des Hauts-de-Seine (2017)",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+          "source_label": "Wikipédia — Gabriel Attal"
         },
         "fonctions_gouvernementales": {
           "value": "Premier ministre (janv-sept 2024), Min. Éducation, Min. Comptes publics, Porte-parole",
@@ -990,8 +1015,8 @@
         },
         "presidence_parti": {
           "value": "Aucune fonction de président de parti",
-          "source_url": "https://fr.wikipedia.org/",
-          "source_label": "Wikipédia / sites officiels — Fiabilité 🟢"
+          "source_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal",
+          "source_label": "Wikipédia — Gabriel Attal"
         },
         "candidature_2027": {
           "value": "Pressenti / non officiellement déclaré",
@@ -1097,6 +1122,11 @@
           "value": "Pas de manifestation type cortège. Meetings et déplacements de présidence groupe EPR. Participations cérémonies républicaines.",
           "source_url": null,
           "source_label": null
+        },
+        "societe": {
+          "value": "POUR la constitutionnalisation de l'IVG (texte porté par le gouvernement Attal au Congrès du 4 mars 2024). POUR l'aide à mourir, vote nominal AN scrutin n°2107 du 27/05/2025.",
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/2107",
+          "source_label": "AN — scrutin n°2107 du 27/05/2025 + Congrès Versailles 04/03/2024"
         }
       },
       "financement": {},

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mlolita26.github.io/observations-presidentielles-2027/sitemap.xml
