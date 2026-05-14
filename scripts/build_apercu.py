@@ -143,6 +143,10 @@ def main():
         if not c:
             continue
         parts.append(f'<article class="apercu-candidat" id="cand-{h(slug)}"><h3>{h(c["nom"])} — {h(c["parti"])}</h3>')
+        # Encart Volume de données
+        vol = c.get('_volume_donnees', {})
+        if vol:
+            parts.append(f'<aside style="background:#FCFAF3; border-left:3px solid #C9A961; padding:0.6em 1em; margin:0.5em 0 1em; font-size:0.9em"><strong>📊 {h(vol.get("titre", ""))}</strong> — {h(vol.get("detail", ""))}</aside>')
 
         # Identité
         ident = c.get('identite', {})

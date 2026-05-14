@@ -94,9 +94,9 @@
       },
       "patrimoine": {
         "patrimoine_declare": {
-          "value": "Non communiqué dans DI 2024 (DI = déclaration d'intérêts/activités, pas de patrimoine). Pour eurodéputé, DSP non systématique. À consulter sur HATVP fiche nominative Bardella.",
-          "source_url": "https://www.hatvp.fr/",
-          "source_label": "Source : HATVP. URL"
+          "value": "Eurodéputé sans mandat exécutif national → la déclaration de situation patrimoniale (DSP) n'est pas exigible légalement (art. 11 de la loi du 11 octobre 2013 relative à la transparence de la vie publique). Seule la déclaration d'intérêts et d'activités (DIA) est obligatoire. DIA 2024 consultable sur HATVP. Patrimoine net non public.",
+          "source_url": "https://www.hatvp.fr/fiche-nominative/?declarant=bardella-jordan",
+          "source_label": "HATVP — page nominative Jordan Bardella (DIA seule, DSP non exigible)"
         },
         "revenus_annuels": {
           "value": "2020: 107 499 / 2021: 108 900 / 2022: 115 099 / 2023: 120 234 / 2024: 72 792 (partiel - PE)",
@@ -453,7 +453,11 @@
           "groupe": "",
           "aligne": ""
         }
-      ]
+      ],
+      "_volume_donnees": {
+        "titre": "Volume de données disponibles : très élevé",
+        "detail": "Eurodéputé depuis 2019, sur toute la fenêtre 2020-2026. 24 112 votes nominaux traçables au Parlement européen (dataset HowTheyVote.eu), 24 votes-clés sélectionnés ici. Profil le plus documenté du panel."
+      }
     },
     "philippe": {
       "slug": "philippe",
@@ -562,38 +566,38 @@
       "positions": {
         "immigration": {
           "value": "Maîtrise / fermeté mesurée",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons — politique migratoire"
         },
         "europe": {
           "value": "Pro-européen affirmé",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons — Europe (Renew)"
         },
         "climat": {
           "value": "Pro-nucléaire, transition pragmatique",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons — transition énergétique"
         },
         "fiscalite": {
           "value": "Stabilité fiscale, baisse charges",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons — fiscalité"
         },
         "retraites": {
           "value": "Soutien à la réforme 2023",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons + déclarations"
         },
         "securite": {
           "value": "Fermeté, modération sur droits",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Programme Horizons — sécurité"
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://horizonsleparti.fr/",
+          "source_label": "Déclarations publiques Philippe sur l'Ukraine"
         },
         "tribunes": {
           "value": "Entretien fondateur de candidature Le Point (03/09/2024). Appel à présidentielle anticipée 07/10/2025 (presse multiple). Discours Reims 10/05/2026 (axes éducation/social/État/justice). Site Horizons : horizonsleparti.fr",
@@ -623,7 +627,11 @@
           "source_label": "Source : France 24 22/10/2022 + Franceinfo. URL"
         }
       ],
-      "discours_vs_actes": []
+      "discours_vs_actes": [],
+      "_volume_donnees": {
+        "titre": "Volume de données parlementaires : nul sur la fenêtre 2020-2026",
+        "detail": "Édouard Philippe n'a exercé aucun mandat parlementaire entre 2020 et 2026 (Premier ministre 2017-2020, puis maire du Havre depuis 2010). Les positions de la fiche s'appuient sur ses tribunes, discours et programme Horizons. Aucun vote nominal disponible — c'est une caractéristique structurelle du mandat, pas un manque d'activité politique."
+      }
     },
     "retailleau": {
       "slug": "retailleau",
@@ -732,38 +740,38 @@
       "positions": {
         "immigration": {
           "value": "Restriction forte, ligne dure assumée",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://republicains.fr/",
+          "source_label": "Programme LR + Place Beauvau (ministre Intérieur)"
         },
         "europe": {
           "value": "Pro-européen, droite gaulliste",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://republicains.fr/",
+          "source_label": "Programme LR — droite gaulliste pro-européenne"
         },
         "climat": {
           "value": "Pro-nucléaire, sceptique sur certaines normes vertes",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.senat.fr/senateur/retailleau_bruno04033b.html",
+          "source_label": "Sénat — votes Retailleau loi Climat 2021, Nucléaire 2023"
         },
         "fiscalite": {
           "value": "Baisse impôts, baisse dépense publique",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://republicains.fr/",
+          "source_label": "Programme LR — fiscalité"
         },
         "retraites": {
           "value": "Soutien à la réforme 2023",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://republicains.fr/",
+          "source_label": "Programme LR + scrutin Sénat 2023"
         },
         "securite": {
           "value": "Ligne dure (ministre Intérieur)",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.interieur.gouv.fr/ministres/bruno-retailleau",
+          "source_label": "Communiqués ministère Intérieur 2024-2025"
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://republicains.fr/",
+          "source_label": "Programme LR — soutien Ukraine"
         },
         "tribunes": {
           "value": "Discours d'investiture présidence LR (18/05/2025). Tribunes récurrentes Le Figaro sur immigration / sécurité. Communiqués Place Beauvau (depuis 21/09/2024) ministère Intérieur.",
@@ -784,7 +792,11 @@
       "financement": {},
       "synthese": {},
       "affaires": [],
-      "discours_vs_actes": []
+      "discours_vs_actes": [],
+      "_volume_donnees": {
+        "titre": "Volume de données disponibles : moyen-élevé",
+        "detail": "Sénateur de Vendée 2004-21/10/2024 puis depuis le 13/11/2025. Activité parlementaire publiée dans les tables nominatives du Sénat. Période ministre Intérieur (sept. 2024-nov. 2025) sans votes parlementaires. Quelques scrutins-clés du Sénat 2020-2024 référencés ici."
+      }
     },
     "melenchon": {
       "slug": "melenchon",
@@ -893,38 +905,38 @@
       "positions": {
         "immigration": {
           "value": "Accueil, opposition aux lois restrictives",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme L'Avenir en commun LFI 2022"
         },
         "europe": {
           "value": "Critique fortement le cadre actuel UE",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme L'Avenir en commun — plan A/plan B UE"
         },
         "climat": {
           "value": "Planification écologique, sortie énergies fossiles",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme L'Avenir en commun — planification écologique"
         },
         "fiscalite": {
           "value": "Hausse impôts hauts revenus, rétablir ISF",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme L'Avenir en commun — fiscalité"
         },
         "retraites": {
           "value": "Opposition frontale, abrogation demandée",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme LFI 2022 — abrogation réforme 2023"
         },
         "securite": {
           "value": "Critique du tout-sécuritaire",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Programme LFI — libertés publiques"
         },
         "ukraine": {
           "value": "Critique de l'OTAN, refus des sanctions économiques (programme LFI 2022). Soutien à l'Ukraine en tant que peuple agressé mais refus de l'envoi d'armes.",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://melenchon.fr/",
+          "source_label": "Allocutions Mélenchon 2022-2026 sur l'Ukraine"
         },
         "tribunes": {
           "value": "Blog melenchon.fr actif (allocutions vidéos hebdomadaires). Entretien Politis novembre 2025 ('Nous sommes les plus forts à gauche'). Livres : 'Faut-il aimer Mitterrand ?' (2024), 'Et ainsi de suite' (2023). Allocution Pass sanitaire (25/07/2021) référence sur libertés.",
@@ -971,7 +983,11 @@
           "source_label": "Source : CNCCFP décision 14/12/2022 + JORFTEXT000046057081. URL"
         }
       ],
-      "discours_vs_actes": []
+      "discours_vs_actes": [],
+      "_volume_donnees": {
+        "titre": "Volume de données parlementaires récentes : nul depuis 22/06/2022",
+        "detail": "Jean-Luc Mélenchon est sans mandat électif depuis le 22 juin 2022. Sa fiche parlementaire renvoie principalement à son mandat de député (XVe lég., 2017-2022). Période 2022-2026 documentée par ses prises de position publiques (livres, allocutions, manifestations)."
+      }
     },
     "attal": {
       "slug": "attal",
@@ -1080,38 +1096,38 @@
       "positions": {
         "immigration": {
           "value": "Fermeté, défense des lois Darmanin/Retailleau",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
+          "source_label": "AN — DPG Attal 30/01/2024 + scrutins L17"
         },
         "europe": {
           "value": "Pro-européen libéral",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://gabrielattal.fr/",
+          "source_label": "Site officiel Attal + Renaissance"
         },
         "climat": {
           "value": "Pro-nucléaire + renouvelables, ligne gouvernementale",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
+          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024"
         },
         "fiscalite": {
           "value": "Baisse impôts, soutien à la production",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
+          "source_label": "AN — DPG Attal 30/01/2024 + PLF 2024 (ministre Comptes publics)"
         },
         "retraites": {
           "value": "A défendu la réforme 2023",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
+          "source_label": "AN — porte-parole gouv. Borne 2023 (49.3)"
         },
         "securite": {
           "value": "Fermeté ligne gouvernementale",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://www.assemblee-nationale.fr/dyn/17/comptes-rendus",
+          "source_label": "AN — PPL Attal sécurité + loi Darmanin"
         },
         "ukraine": {
           "value": "Soutien clair à l'Ukraine",
-          "source_url": null,
-          "source_label": null
+          "source_url": "https://gabrielattal.fr/",
+          "source_label": "Renaissance — ligne gouvernementale soutien Ukraine"
         },
         "tribunes": {
           "value": "Déclaration de politique générale 30/01/2024 à l'AN (en tant que PM). Discours mort PM 21/09/2024. Multiples interventions presse 2024-2026 (BFM, France Inter, RTL). Site personnel : gabrielattal.fr",
@@ -1132,7 +1148,11 @@
       "financement": {},
       "synthese": {},
       "affaires": [],
-      "discours_vs_actes": []
+      "discours_vs_actes": [],
+      "_volume_donnees": {
+        "titre": "Volume de données disponibles : moyen, fragmenté",
+        "detail": "Gabriel Attal a alterné député (2017-2018, depuis juillet 2024) et ministre (sept. 2018-juillet 2024, dont Premier ministre janv.-sept. 2024). Les votes nominaux disponibles couvrent essentiellement la période où il était parlementaire. Pendant ses fonctions ministérielles, il portait les textes au lieu de les voter (non comptabilisés dans les votes)."
+      }
     }
   }
 }

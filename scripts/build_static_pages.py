@@ -135,8 +135,17 @@ def render_candidat(slug, candidats, sujets, votes):
     parts.append(' '.join(bits))
     parts.append('</p></div></header>')
 
+    # Encart Volume de données (Action 1 — revue v2)
+    vol = c.get('_volume_donnees', {})
+    if vol:
+        parts.append(f"""
+<aside style="background:#FCFAF3; border:2px solid #C9A961; border-radius:4px; padding:1em 1.25em; margin:1em 0">
+  <p style="font-style:italic; color:#1F3A5F; margin:0 0 0.5em"><strong>📊 {h(vol.get('titre', ''))}</strong></p>
+  <p style="margin:0; font-size:0.93em; color:#444">{h(vol.get('detail', ''))}</p>
+</aside>
+""")
     parts.append(f"""
-<p class="disclaimer">Données arrêtées au 12 mai 2026. <strong>Volume de données disponibles pour ce candidat&nbsp;:</strong> {n_votes} votes-clés référencés sur {n_votes_total} textes (le volume reflète la nature et la durée du mandat, pas l'activité — voir <a href="methodologie.html#biais">méthodologie</a>).</p>
+<p class="disclaimer">Données arrêtées au 12 mai 2026. <strong>{n_votes} votes-clés référencés sur {n_votes_total} textes-clés du panel.</strong> Le volume reflète la nature et la durée du mandat, pas l'activité — voir <a href="methodologie.html#biais">méthodologie</a> et l'encart ci-dessus.</p>
 """)
 
     # L'essentiel — 4 cartes

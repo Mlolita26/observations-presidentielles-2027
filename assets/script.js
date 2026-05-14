@@ -682,6 +682,11 @@
 
   function renderCandidatHero(c) {
     const baseline = buildCandidatLongBaseline(c);
+    const vol = c._volume_donnees || {};
+    const volBlock = vol.titre ? `<aside style="background:#FCFAF3; border:2px solid #C9A961; border-radius:4px; padding:1rem 1.25rem; margin:1rem 0">
+      <p style="font-style:italic; color:var(--c-accent); margin:0 0 0.5rem"><strong>📊 ${escapeHtml(vol.titre)}</strong></p>
+      <p style="margin:0; font-size:0.93rem; color:var(--c-text-soft)">${escapeHtml(vol.detail || '')}</p>
+    </aside>` : '';
     return `<header class="candidat-hero">
       ${candidatPhoto(c.slug, c.nom)}
       <div>
@@ -690,6 +695,7 @@
         <p class="baseline">${richText(baseline)}</p>
       </div>
     </header>
+    ${volBlock}
     <p class="disclaimer">Données arrêtées au 12 mai 2026. Survolez un terme souligné en pointillé doré pour ouvrir sa définition. Cliquez sur l'icône <span aria-hidden="true">↗</span> à droite d'une donnée pour ouvrir la source officielle.</p>`;
   }
 
