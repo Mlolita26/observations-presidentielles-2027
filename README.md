@@ -8,7 +8,6 @@ Site statique non partisan présentant une analyse factuelle et sourcée des cin
 
 Pages utiles :
 - [Accueil](https://mlolita26.github.io/observations-presidentielles-2027/) — les 5 candidats + 11 sujets
-- [Aperçu complet (HTML statique)](https://mlolita26.github.io/observations-presidentielles-2027/apercu.html) — toutes les données sur une page
 - [Méthodologie](https://mlolita26.github.io/observations-presidentielles-2027/methodologie.html)
 - [Glossaire](https://mlolita26.github.io/observations-presidentielles-2027/glossaire-static.html)
 

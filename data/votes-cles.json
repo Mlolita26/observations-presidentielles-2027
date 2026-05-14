@@ -27,7 +27,8 @@
         "position": "CONTRE",
         "detail": "❌ CONTRE (AN - LFI groupe CONTRE l'ensemble du texte ; LFI et PCF se sont abstenus uniquement sur Art. 36 vols intérieurs)",
         "source_url": null,
-        "source_label": null
+        "source_label": null,
+        "contexte": "Le groupe LFI a voté CONTRE l'ensemble du texte non par opposition à l'ambition climatique mais en jugeant la loi insuffisante au regard des recommandations de la Convention citoyenne pour le climat (notamment sur les vols intérieurs Art. 36, le rénovation thermique et l'absence de planification écologique contraignante)."
       },
       "attal": {
         "position": "N/A",
@@ -35,7 +36,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2021 traduisant des propositions de la Convention citoyenne pour le climat : interdiction des vols intérieurs sur les lignes < 2h30 (Art. 36), encadrement publicité énergies fossiles, rénovation thermique des bâtiments, zones à faibles émissions."
   },
   {
     "theme": "Climat & écologie",
@@ -73,7 +75,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2023 facilitant l'implantation d'éoliennes, panneaux solaires et autres ENR, avec des « zones d'accélération » définies par les communes."
   },
   {
     "theme": "Climat & écologie",
@@ -111,7 +114,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2023 simplifiant les procédures de construction de nouveaux réacteurs nucléaires (programmation des EPR2) et levant certaines limites antérieures."
   },
   {
     "theme": "Retraites",
@@ -149,7 +153,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Réforme de 2023 reculant l'âge légal de départ à la retraite de 62 à 64 ans et accélérant l'allongement de la durée de cotisation (43 ans en 2027). Adoptée par engagement de responsabilité (49.3) le 16 mars 2023."
   },
   {
     "theme": "Immigration",
@@ -187,7 +192,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi du 26 janvier 2024 sur le contrôle de l'immigration : durcissement des conditions de regroupement familial, prestations sociales différenciées, expulsion d'étrangers délinquants. Certaines dispositions censurées par le Conseil constitutionnel."
   },
   {
     "theme": "Économie & fiscalité",
@@ -225,7 +231,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Projet de loi de finances pour 2024 : budget de l'État (recettes, dépenses, déficit). Adoption à l'AN par 49.3, contre-vote sénatorial avec 7 Md€ d'économies supplémentaires."
   },
   {
     "theme": "Économie & fiscalité",
@@ -263,7 +270,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Projet de loi de finances pour 2025 : budget de l'État dans un contexte de plan d'économies post-censure Barnier. Adoption définitive le 6 février 2025."
   },
   {
     "theme": "Sécurité & justice",
@@ -293,7 +301,8 @@
         "position": "CONTRE",
         "detail": "❌ CONTRE (LFI a voté CONTRE à l'unanimité avec PS et PCF - Mélenchon CONTRE)",
         "source_url": null,
-        "source_label": null
+        "source_label": null,
+        "contexte": "Opposition LFI sur les libertés publiques, notamment l'Article 24 (interdiction de diffuser des images de policiers identifiables) que le Conseil constitutionnel a finalement censuré le 20 mai 2021."
       },
       "attal": {
         "position": "N/A",
@@ -301,7 +310,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2021 renforçant les pouvoirs des polices municipales, encadrant l'usage des drones, et le très controversé Article 24 sur la diffusion d'images de policiers (censuré par le Conseil constitutionnel)."
   },
   {
     "theme": "Sécurité & justice",
@@ -331,7 +341,8 @@
         "position": "POUR",
         "detail": "❌ CONTRE sur l'ensemble du texte (TA 16/02/2021 - LFI a voté CONTRE l'ensemble, malgré vote POUR sur ~40 pct des articles séparément)",
         "source_url": null,
-        "source_label": null
+        "source_label": null,
+        "contexte": "Le groupe LFI a voté CONTRE l'ensemble du texte, mais POUR environ 40 % des articles examinés séparément (notamment sur l'égalité femmes-hommes et la lutte contre la haine en ligne). Position publique : Mélenchon a qualifié la loi de « inutile et dangereuse » (01/02/2021)."
       },
       "attal": {
         "position": "N/A",
@@ -339,7 +350,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi du 24 août 2021 dite \"séparatisme\" : contrôle accru des associations, fermeture de lieux de culte radicaux, neutralité des agents publics, lutte contre la haine en ligne, encadrement de l'instruction à domicile."
   },
   {
     "theme": "Sécurité & justice",
@@ -369,7 +381,8 @@
         "position": "CONTRE",
         "detail": "❌ CONTRE (Mélenchon a publiquement déclaré 'J'ai voté CONTRE le pass vaccinal et CONTRE le pass sanitaire' - LFI CONTRE à l'unanimité)",
         "source_url": null,
-        "source_label": null
+        "source_label": null,
+        "contexte": "Le groupe LFI a voté CONTRE à l'unanimité, motion de rejet préalable portée par Mélenchon. Position publique : opposition au pass sur des bases de libertés publiques et de non-respect du consentement éclairé, pas anti-vaccinale (Mélenchon s'est lui-même fait vacciner et a appelé à la vaccination volontaire)."
       },
       "attal": {
         "position": "N/A",
@@ -377,7 +390,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Lois sanitaires de 2021-2022 imposant un pass sanitaire puis vaccinal pour accéder aux lieux publics et événements, dans le cadre de la pandémie Covid-19."
   },
   {
     "theme": "Société",
@@ -401,7 +415,8 @@
         "position": "CONTRE",
         "detail": "CONTRE (rare sénateur LR a voter contre - position défendue publiquement Congrès 04/03/2024)",
         "source_url": null,
-        "source_label": null
+        "source_label": null,
+        "contexte": "Bruno Retailleau fait partie des rares sénateurs LR à avoir voté CONTRE la constitutionnalisation de l'IVG au Congrès du 4 mars 2024 (780 POUR / 72 CONTRE). Position défendue publiquement avant le vote : favorable au droit à l'IVG dans la loi ordinaire, mais opposé à son inscription constitutionnelle."
       },
       "melenchon": {
         "position": "N/A",
@@ -415,7 +430,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi constitutionnelle inscrivant dans la Constitution la \"liberté garantie\" pour la femme d'avoir recours à l'IVG. Adoptée au Congrès de Versailles le 4 mars 2024 par 780 voix contre 72."
   },
   {
     "theme": "Société",
@@ -451,9 +467,11 @@
         "position": "POUR",
         "detail": "✅ POUR (AN 27/05/2025 - scrutin n°2107 : adopté 305 POUR / 199 CONTRE ; Attal a voté POUR comme une partie d'EPR)",
         "source_url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/2107",
-        "source_label": "Source : AN scrutin n°2107 du 27/05/2025 + Franceinfo carte députés. URL"
+        "source_label": "Source : AN scrutin n°2107 du 27/05/2025 + Franceinfo carte députés. URL",
+        "contexte": "Vote POUR au scrutin n°2107 du 27/05/2025. Position personnelle assumée au-delà de la simple discipline de groupe : le scrutin a permis un vote « selon sa conscience » au sein d'Ensemble pour la République."
       }
-    }
+    },
+    "resume": "Projet de loi créant un droit à \"l'aide à mourir\" sous conditions strictes (maladie incurable, souffrances réfractaires) et renforçant les soins palliatifs. Adopté en 1ère lecture à l'AN le 27 mai 2025."
   },
   {
     "theme": "Sécurité & justice",
@@ -491,7 +509,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de programmation 2023-2027 pour la justice : 8 Md€ supplémentaires, embauche de 10 000 magistrats et greffiers, simplification de la procédure pénale."
   },
   {
     "theme": "Europe & souveraineté",
@@ -529,7 +548,8 @@
         "source_url": "https://howtheyvote.eu/",
         "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
       }
-    }
+    },
+    "resume": "Ensemble de 10 textes adoptés le 10 avril 2024 réformant la politique européenne d'asile et de gestion des frontières."
   },
   {
     "theme": "Europe & souveraineté",
@@ -567,7 +587,9 @@
         "source_url": "https://howtheyvote.eu/",
         "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
       }
-    }
+    },
+    "titre_fr": "Loi européenne sur le climat (paquet Fit for 55)",
+    "resume": "Paquet législatif européen pour atteindre -55 % d'émissions en 2030 : révision du marché carbone (SEQE/ETS), CBAM, fonds social pour le climat, normes CO2 voitures."
   },
   {
     "theme": "Europe & souveraineté",
@@ -605,7 +627,8 @@
         "source_url": "https://howtheyvote.eu/",
         "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
       }
-    }
+    },
+    "resume": "Programme européen Ukraine Facility : 50 Md€ d'aide combinant prêts et dons à l'Ukraine pour la période 2024-2027 (fonctionnement et reconstruction)."
   },
   {
     "theme": "Europe & souveraineté",
@@ -617,7 +640,8 @@
         "position": "POUR",
         "detail": "✅ POUR (2024-03-13)",
         "source_url": "https://howtheyvote.eu/",
-        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
+        "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID",
+        "contexte": "Vote POUR atypique pour un eurodéputé du groupe ID/PfE habituellement opposé aux régulations européennes. Motif : protection des industries européennes face aux acteurs américains et chinois (alignement souverainiste-protectionniste)."
       },
       "philippe": {
         "position": "N/A",
@@ -643,7 +667,8 @@
         "source_url": "https://howtheyvote.eu/",
         "source_label": "Source: HowTheyVote.eu - Asylum and migration management - aligné avec groupe ID"
       }
-    }
+    },
+    "resume": "Premier cadre juridique mondial sur l'IA, adopté en mars 2024. Classe les systèmes d'IA par niveau de risque (interdit / haut / limité / minimal) et impose des obligations proportionnées."
   },
   {
     "theme": "Économie & fiscalité",
@@ -681,7 +706,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2023 visant le plein emploi : création de France Travail (ex-Pôle emploi), conditions renforcées d'accompagnement des bénéficiaires du RSA (15 h d'activité hebdo)."
   },
   {
     "theme": "Économie & fiscalité",
@@ -719,7 +745,8 @@
         "source_url": null,
         "source_label": null
       }
-    }
+    },
+    "resume": "Loi de 2023 visant à attirer les industries vertes en France (procédures d'autorisation raccourcies, crédit d'impôt, fléchage de l'épargne)."
   },
   {
     "theme": "Sécurité & justice",
@@ -757,7 +784,8 @@
         "source_url": "https://lcp.fr/actualites/le-gouvernement-de-michel-barnier-censure-au-terme-d-une-journee-historique-a-l",
         "source_label": "Source : LCP + Public Sénat 04/12/2024. URL"
       }
-    }
+    },
+    "resume": "Motion de censure transpartisane (RN + NFP) adoptée le 4 décembre 2024 par 331 voix, faisant tomber le gouvernement Barnier. Première motion adoptée depuis 1962."
   },
   {
     "theme": "Europe & souveraineté",
@@ -769,7 +797,8 @@
         "position": "POUR",
         "detail": null,
         "source_url": "https://howtheyvote.eu/members/131580",
-        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580",
+        "contexte": "Vote POUR atypique pour un eurodéputé du groupe ID/PfE habituellement opposé aux régulations européennes. Motif : protection des industries européennes face aux acteurs américains et chinois (alignement souverainiste-protectionniste)."
       },
       "philippe": {
         "position": "N/A",
@@ -787,7 +816,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Règlement européen sur l'intelligence artificielle (AI Act)",
+    "resume": "Premier cadre juridique mondial sur l'IA, adopté en mars 2024. Classe les systèmes d'IA par niveau de risque et impose des obligations proportionnées."
   },
   {
     "theme": "Climat & écologie",
@@ -817,7 +848,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Loi européenne sur le climat",
+    "resume": "Établit l'objectif contraignant de neutralité climatique de l'UE d'ici 2050 et un objectif intermédiaire de -55 % d'émissions de gaz à effet de serre en 2030 (par rapport à 1990)."
   },
   {
     "theme": "Climat & écologie",
@@ -847,7 +880,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Loi européenne sur le climat",
+    "resume": "Établit l'objectif contraignant de neutralité climatique de l'UE d'ici 2050 et un objectif intermédiaire de -55 % d'émissions de gaz à effet de serre en 2030 (par rapport à 1990)."
   },
   {
     "theme": "Climat & écologie",
@@ -859,7 +894,8 @@
         "position": "POUR",
         "detail": null,
         "source_url": "https://howtheyvote.eu/members/131580",
-        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580",
+        "contexte": "Vote POUR la révision du CBAM, à mettre en regard de l'opposition générale du RN aux textes climat européens. La logique est protectionniste (taxer les importations carbonées) plus que climatique, alignée avec la doctrine souverainiste."
       },
       "philippe": {
         "position": "N/A",
@@ -877,7 +913,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Mécanisme d'ajustement carbone aux frontières (CBAM) — simplification et renforcement",
+    "resume": "Révision du CBAM (taxe carbone aux frontières) : simplifie les procédures pour les importateurs et renforce les outils anti-contournement (substitution, exportations)."
   },
   {
     "theme": "Climat & écologie",
@@ -907,7 +945,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Investissements et réformes pour la compétitivité européenne et l'Union des marchés de capitaux",
+    "resume": "Rapport sur la création d'une véritable Union des marchés de capitaux : intégration financière, harmonisation des règles, financement des transitions."
   },
   {
     "theme": "Climat & écologie",
@@ -937,7 +977,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Renforcement des marchés de capitaux publics et accès au financement pour les PME",
+    "resume": "Listing Act : modifications pour faciliter l'introduction en bourse des PME européennes (allègement obligations d'information)."
   },
   {
     "theme": "Climat & écologie",
@@ -967,7 +1009,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Directive énergies renouvelables (RED III)",
+    "resume": "Directive RED III : porte à 42,5 % la part des énergies renouvelables dans la consommation finale de l'UE en 2030, avec procédures d'autorisation accélérées."
   },
   {
     "theme": "Immigration",
@@ -997,7 +1041,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Gestion de l'asile et de la migration (Pacte UE)",
+    "resume": "Règlement du Pacte UE asile et migration : mécanisme de solidarité obligatoire entre États membres (accueil ou contribution financière), gestion partagée des arrivées."
   },
   {
     "theme": "Immigration",
@@ -1027,7 +1073,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Procédure commune de protection internationale dans l'Union (Pacte UE)",
+    "resume": "Volet du Pacte UE asile : procédures accélérées d'asile aux frontières externes, screening obligatoire."
   },
   {
     "theme": "Immigration",
@@ -1057,7 +1105,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Décharge 2022 — Agence européenne de garde-frontières et de garde-côtes (Frontex)",
+    "resume": "Vote d'approbation (ou de rejet) de la gestion budgétaire 2022 de Frontex (Agence européenne de garde-frontières). Geste politique reflétant la position sur l'agence."
   },
   {
     "theme": "Ukraine & politique étrangère",
@@ -1087,7 +1137,8 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Modification du règlement établissant la Facilité Ukraine"
   },
   {
     "theme": "Ukraine & politique étrangère",
@@ -1117,7 +1168,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Établissement de la Facilité Ukraine (50 Md€)",
+    "resume": "Création de la Facilité Ukraine : 50 Md€ d'aide UE (prêts + dons) à l'Ukraine sur 2024-2027."
   },
   {
     "theme": "Ukraine & politique étrangère",
@@ -1177,7 +1230,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Sanctions pénales en cas de violation des mesures restrictives de l'Union (Russie)",
+    "resume": "Directive harmonisant les sanctions pénales en cas de violation des sanctions européennes contre la Russie."
   },
   {
     "theme": "Climat & écologie",
@@ -1207,7 +1262,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Avenir de l'agriculture et politique agricole commune post-2027",
+    "resume": "Rapport d'initiative parlementaire sur les orientations de la prochaine PAC (après 2027). Non contraignant."
   },
   {
     "theme": "Climat & écologie",
@@ -1219,7 +1276,8 @@
         "position": "POUR",
         "detail": null,
         "source_url": "https://howtheyvote.eu/members/131580",
-        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580",
+        "contexte": "Vote POUR la PAC, dissident de la majorité du groupe ID à l'époque (qui a majoritairement voté CONTRE). Position cohérente avec l'attachement RN au monde agricole français."
       },
       "philippe": {
         "position": "N/A",
@@ -1237,7 +1295,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Politique agricole commune (PAC) 2021-2027",
+    "resume": "Réforme de la Politique agricole commune pour la période 2021-2027 : éco-régimes obligatoires, conditionnalité environnementale renforcée, redistribution des aides."
   },
   {
     "theme": "Climat & écologie",
@@ -1267,7 +1327,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Utilisation durable des produits phytosanitaires (pesticides)",
+    "resume": "Proposition visant à réduire de 50 % l'usage et les risques des pesticides chimiques d'ici 2030, avec interdiction dans les zones sensibles. Rejetée au PE en novembre 2023."
   },
   {
     "theme": "Climat & écologie",
@@ -1297,7 +1359,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Règlement sur la restauration de la nature",
+    "resume": "Règlement obligeant les États membres à restaurer 20 % des terres et des mers de l'UE d'ici 2030 (zones humides, forêts, écosystèmes marins)."
   },
   {
     "theme": "Économie & fiscalité",
@@ -1327,7 +1391,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Salaires minimaux adéquats dans l'Union européenne",
+    "resume": "Directive européenne fixant un cadre pour les salaires minimaux dans l'UE : critères d'adéquation (60 % du salaire médian), promotion de la négociation collective."
   },
   {
     "theme": "Europe & souveraineté",
@@ -1357,7 +1423,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Hongrie — risque manifeste de violation grave des valeurs de l'Union (Article 7 TUE)",
+    "resume": "Procédure de l'Article 7 du TUE contre la Hongrie pour violation grave des valeurs européennes (État de droit, indépendance de la justice, libertés). Pouvant aller jusqu'à la suspension des droits de vote au Conseil."
   },
   {
     "theme": "Europe & souveraineté",
@@ -1387,7 +1455,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Situation en Hongrie et fonds européens gelés",
+    "resume": "Résolution dénonçant les reculs démocratiques en Hongrie et soutenant le gel des fonds européens par la Commission."
   },
   {
     "theme": "",
@@ -1417,7 +1487,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Devoir de vigilance des entreprises en matière de durabilité",
+    "resume": "Directive CSDDD : oblige les grandes entreprises à identifier et corriger les atteintes aux droits humains et à l'environnement dans leur chaîne de valeur."
   },
   {
     "theme": "Économie & fiscalité",
@@ -1429,7 +1501,8 @@
         "position": "POUR",
         "detail": null,
         "source_url": "https://howtheyvote.eu/members/131580",
-        "source_label": "HowTheyVote.eu — Bardella MEP 131580"
+        "source_label": "HowTheyVote.eu — Bardella MEP 131580",
+        "contexte": "Vote POUR la directive plateformes (Uber, Deliveroo), à rebours de l'opposition habituelle du groupe ID aux textes sociaux européens. Motif : protection de catégories populaires de salariés."
       },
       "philippe": {
         "position": "N/A",
@@ -1447,7 +1520,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Amélioration des conditions de travail des travailleurs de plateformes",
+    "resume": "Directive européenne sur les travailleurs des plateformes : présomption de salariat dans certaines conditions, transparence des algorithmes de management."
   },
   {
     "theme": "Économie & fiscalité",
@@ -1477,7 +1552,9 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Conditions de travail et protection sociale des travailleurs des plateformes numériques",
+    "resume": "Résolution non contraignante du PE sur les conditions de travail des travailleurs des plateformes numériques (Uber, Deliveroo…)."
   },
   {
     "theme": "Climat",
@@ -1507,6 +1584,8 @@
         "position": "N/A",
         "detail": null
       }
-    }
+    },
+    "titre_fr": "Mécanisme d'ajustement carbone aux frontières (CBAM) — vote initial",
+    "resume": "Création du CBAM (taxe carbone aux frontières) : applique le prix du carbone européen aux importations à fort contenu carbone (acier, aluminium, ciment, engrais, hydrogène, électricité). Évite les délocalisations."
   }
 ]

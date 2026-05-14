@@ -79,7 +79,6 @@ def html_header(title, description, canonical):
       <a href="comparer.html">Comparer</a>
       <a href="glossaire-static.html">Glossaire</a>
       <a href="methodologie.html">Méthodologie</a>
-      <a href="apercu.html">Aperçu complet</a>
     </nav>
   </div>
 </header>
@@ -90,7 +89,7 @@ def html_header(title, description, canonical):
 HTML_FOOTER = """
 <footer class="site-footer" style="margin-top:3rem; padding:2rem 0; border-top:1px solid #D4D0C7;">
   <div class="container">
-    <p><a href="methodologie.html">Méthodologie</a> · <a href="glossaire-static.html">Glossaire</a> · <a href="apercu.html">Aperçu complet</a> · <a href="methodologie.html#mentions">Mentions légales</a></p>
+    <p><a href="methodologie.html">Méthodologie</a> · <a href="glossaire-static.html">Glossaire</a> · <a href="methodologie.html#mentions">Mentions légales</a></p>
     <p>Données extraites le 12 mai 2026. Licence : CC BY 4.0. Observatoire non partisan, non rattaché à aucun parti.</p>
   </div>
 </footer>
@@ -315,7 +314,19 @@ def render_sujet(sujet, candidats, votes):
                 parts.append(f'<th>{h(candidats[cs]["nom"].split()[-1])}</th>')
             parts.append('<th>Source</th></tr></thead><tbody>')
             for v in matched:
-                parts.append(f'<tr><td class="numeric">{h(v.get("annee"))}</td><td>{h(v.get("texte"))}</td>')
+                titre = v.get('titre_fr') or v.get('texte', '')
+                resume = v.get('resume', '')
+                resume_html = f'<details style="margin-top:0.3em"><summary style="cursor:pointer; font-size:0.82em; color:#1F3A5F">Résumé</summary><p style="font-size:0.88em; color:#555; margin:0.3em 0 0">{h(resume)}</p></details>' if resume else ''
+                # Contextes atypiques
+                ctx_items = [(slug, p.get('contexte')) for slug, p in (v.get('positions') or {}).items() if isinstance(p, dict) and p.get('contexte')]
+                ctx_html = ''
+                if ctx_items:
+                    ctx_html = '<details style="margin-top:0.3em"><summary style="cursor:pointer; font-size:0.82em; color:#C9A961">⚠ Contexte du vote</summary><ul style="font-size:0.85em; margin:0.3em 0 0; padding-left:1.5em">'
+                    for slug_c, txt in ctx_items:
+                        nom_court = candidats[slug_c]['nom'].split()[-1] if slug_c in candidats else slug_c
+                        ctx_html += f'<li><strong>{h(nom_court)}</strong> — {h(txt)}</li>'
+                    ctx_html += '</ul></details>'
+                parts.append(f'<tr><td class="numeric">{h(v.get("annee"))}</td><td><div>{h(titre)}</div>{resume_html}{ctx_html}</td>')
                 for cs in CANDIDAT_ORDER:
                     p = (v.get('positions') or {}).get(cs, {})
                     parts.append(f'<td>{fmt_pos(p)}</td>')

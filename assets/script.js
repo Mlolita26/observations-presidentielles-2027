@@ -445,7 +445,12 @@
             }).join('');
             const someSrc = slugs.map(s => (v.positions || {})[s]).find(p => p && p.source_url);
             const src = someSrc ? sourceLink(someSrc.source_url, someSrc.source_label || v.source_label) : '';
-            return `<tr><td class="numeric">${escapeHtml(String(v.annee || ''))}</td><td>${richText(v.texte)}</td>${cells}<td>${src}</td></tr>`;
+            const titre = v.titre_fr || v.texte;
+            const resume = v.resume ? `<details style="margin-top:0.25rem"><summary style="cursor:pointer; font-size:0.82rem; color:var(--c-accent)">Résumé</summary><p style="font-size:0.88rem; color:var(--c-text-soft); margin:0.3rem 0 0">${escapeHtml(v.resume)}</p></details>` : '';
+            // Lister les contextes atypiques (sous le tableau)
+            const ctxList = Object.entries(v.positions || {}).filter(([_, p]) => p && p.contexte).map(([slug, p]) => `<li><strong>${escapeHtml(slug)}</strong> — ${escapeHtml(p.contexte)}</li>`).join('');
+            const ctxBlock = ctxList ? `<details style="margin-top:0.3rem"><summary style="cursor:pointer; font-size:0.82rem; color:var(--c-gold)">⚠ Contextes de vote atypiques</summary><ul style="font-size:0.85rem; margin:0.3rem 0 0; padding-left:1.5rem">${ctxList}</ul></details>` : '';
+            return `<tr><td class="numeric">${escapeHtml(String(v.annee || ''))}</td><td><div>${richText(titre)}</div>${resume}${ctxBlock}</td>${cells}<td>${src}</td></tr>`;
           }).join('')}</tbody>
         </table></div>
       </section>`;
@@ -803,7 +808,7 @@
 
       let votesHtml = '';
       if (matched.length) {
-        votesHtml = matched.map(v => `<div class="cpc-vote-line">${votePastille(v.candidatPos.position, v.candidatPos.detail, true)} <span>${escapeHtml(truncate(v.texte, 65))} (${escapeHtml(String(v.annee || ''))})</span></div>`).join('');
+        votesHtml = matched.map(v => `<div class="cpc-vote-line">${votePastille(v.candidatPos.position, v.candidatPos.detail, true)} <span title="${escapeHtml(v.texte || '')}">${escapeHtml(truncate(v.titre_fr || v.texte, 65))} (${escapeHtml(String(v.annee || ''))})</span></div>`).join('');
       } else {
         votesHtml = '<em style="color: var(--c-text-faint); font-size: 0.85rem;">Pas de vote-clé recensé pour ce candidat sur ce sujet (mandat non concerné ou texte non emblématique).</em>';
       }
