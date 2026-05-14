@@ -406,10 +406,6 @@
       // Préférer la version simple si disponible
       const mainText = nonTrouve ? 'Position non synthétisée sur ce sujet (voir fiche candidat).' : (positionSimple || positionValue);
       const valueCls = nonTrouve ? ' non-trouve' : '';
-      // Le détail technique (enonce original) est dépliable si différent de la version simple
-      const detailHtml = (positionSimple && positionValue && positionSimple !== positionValue)
-        ? `<details style="margin-top:0.4rem"><summary style="cursor:pointer; font-size:0.78rem; color:var(--c-text-soft)">Détail technique</summary><div style="font-size:0.85rem; color:var(--c-text-soft); margin-top:0.3rem">${richText(positionValue)}</div></details>`
-        : '';
       positions += `<article class="position-card">
         <div class="pc-header">
           ${candidatPhoto(slug, c.nom, 'pc-photo')}
@@ -419,7 +415,6 @@
           </div>
         </div>
         <div class="pc-position${valueCls}">${richText(mainText)}</div>
-        ${detailHtml}
         <div class="pc-source">${sourceLink(positionUrl, positionPayload && positionPayload.source_label)}</div>
         <a class="pc-link" href="candidat-${escapeHtml(slug)}.html#positions">Voir sa fiche →</a>
       </article>`;

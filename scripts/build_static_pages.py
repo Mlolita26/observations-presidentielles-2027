@@ -294,12 +294,8 @@ def render_sujet(sujet, candidats, votes):
             parts.append(f'<article class="position-card">')
             parts.append(f'<div class="pc-header"><img class="pc-photo" src="assets/photos/{h(slug)}.svg" alt=""><div><div class="pc-name">{h(c["nom"])}</div><div class="pc-parti">{h(c["parti"])}</div></div></div>')
             if pos and pos.get('value'):
-                simple = pos.get('enonce_simple')
-                value = pos.get('value')
-                main_text = simple if simple else value
+                main_text = pos.get('enonce_simple') or pos.get('value')
                 parts.append(f'<div class="pc-position">{h(main_text)}</div>')
-                if simple and value and simple != value:
-                    parts.append(f'<details style="margin-top:0.4em"><summary style="cursor:pointer; font-size:0.78em; color:#888">Détail technique</summary><div style="font-size:0.85em; color:#555; margin-top:0.3em">{h(value)}</div></details>')
                 if pos.get('source_url'):
                     parts.append(f'<div class="pc-source">{field_payload(pos)}</div>')
             else:
